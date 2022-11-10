@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "nombre": "ABC del crédito",
+        "instructor": "Juan Perez",
+        "calificacion": 5,
+        "noEstudiantes": 334,
+        "noComentarios": 5,
+        "urlImagen": "./resources/planeacionestrategica.png",
+        "urlAvatar": "./resources/instructor-1.jpg"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Buro de crédito",
+        "instructor": "Jorge Negrete",
+        "calificacion": 5,
+        "noEstudiantes": 145,
+        "noComentarios": 1,
+        "urlImagen": "./resources/plandecontinuidaddenegocios.png",
+        "urlAvatar": "./resources/instructor-3.jpg"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Cómo hacer de mi empresa familiar una empresa institucional",
+        "instructor": "Ana Rodríguez",
+        "calificacion": 5,
+        "noEstudiantes": 50,
+        "noComentarios": 2,
+        "urlImagen": "./resources/plandecontinuidaddenegocios2.png",
+        "urlAvatar": "./resources/instructor-2.jpg"
+    },
+
+    {
+        "id": "4",
+        "nombre": "Plan para tu idea de negocio",
+        "instructor": "Antonia Hung Rosales",
+        "calificacion": 5,
+        "noEstudiantes": 45,
+        "noComentarios": 3,
+        "urlImagen": "./resources/plandeideaparatunegocio.png",
+        "urlAvatar": "./resources/instructor-4.jpg"
+    }
+]

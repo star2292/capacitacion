@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos NAFIN</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/courses.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LFCBNTZGM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8LFCBNTZGM');
+    </script>
+    
+    
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-sm-5 py-1 fixed-top shadow-sm" style="font-size: 14px; min-height: 70px;">
+
+        <a class="navbar-brand" href="index.html"><img src="./resources/nacionalfinanciera.svg" width="280px" id="img-header"
+                style="padding-top: 10px; padding-bottom: 10px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cursos.html">Explora</a>
+                </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="eventos.html">Eventos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="capsulas.html">Capsulas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Artículos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+
+            </ul>
+        </div>
+                
+    </nav>
+    <div class="mt-1">
+        <main >
+            <div class="row" id="course-detail-container"></div>
+            <div class="row px-5 pt-5" id="dirijido-container"></div> 
+            <div class="row px-5" id="faq">
+                <div class="col-md-8 col-sm-12" >
+          
+                    <ul id="tabs" class="nav nav-tabs mt-5">
+                            <li class="nav-item"><a href="" data-target="#vision" data-toggle="tab" class="nav-link small text-uppercase active">VISIÓN GENERAL</a></li>
+                            <li class="nav-item"><a href="" data-target="#temario" data-toggle="tab" class="nav-link small text-uppercase">TEMARIO</a></li>
+                            <!-- <li class="nav-item"><a href="" data-target="#instructor" data-toggle="tab" class="nav-link small text-uppercase">INSTRUCTOR</a></li> -->
+                            <li class="nav-item"><a href="" data-target="#requisitos" data-toggle="tab" class="nav-link small text-uppercase">REQUISITOS</a></li>
+                            <li class="nav-item"><a href="" data-target="#ubicacion" data-toggle="tab" class="nav-link small text-uppercase">MODALIDAD</a></li>
+                            <li class="nav-item"><a href="" data-target="#duracion" data-toggle="tab" class="nav-link small text-uppercase">DURACIÓN</a></li>
+							<li class="nav-item"><a href="" data-target="#video" data-toggle="tab" class="nav-link small text-uppercase">VIDEO INTRODUCTORIO</a></li>
+                        
+                    </ul>
+                    <br>
+                    <div id="tabs-container" class="tab-content"></div>
+                </div>
+                <div class="col-md-4 col-sm-12 mt-5" id="faqaside"></div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12">
+
+
+
+                    </div>
+            </div>
+    </main>
+
+    </div>
+
+    <footer style="background-color: #262626;" class="text-white py-3">
+        <div class="row mx-auto px-2 px-md-0" style="max-width: 1050px;">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3" style="font-size: 12px;">
+                <div style="max-width: 300px;">
+                    <div class="mb-4">
+                        <img src="./resources/nacionalfinanciera.svg" width="220px">
+                    </div>
+                    <div class="d-flex mb-4 align-items-center">
+                        <img src="./resources/cellphone.svg" class="mr-3" width="30px">
+                        800 NAFINSA (623-4672)
+                    </div>
+                    <div class="d-flex mb-4 align-items-center">
+                        <img src="./resources/ubicacion2.svg" class="mr-3" width="30px">
+                        Insurgentes Sur 1971, Guadalupe Inn, Álvaro Obregón, CDMX, C.P. 01020
+                    </div>
+                    <div class="d-flex mb-4 align-items-center">
+                        <img src="./resources/correo.svg" class="mr-3" width="30px">
+                        ayuda@nafintecapacita.com
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+                <div class="underlined underlined-footer footer-title mb-4">El Banco</div>
+                <div class="footer-link mb-2">Acerca de NAFIN</div>
+                <div class="footer-link mb-2">Artículos</div>
+                <div class="footer-link mb-2">Contacto</div>
+                <div class="footer-link mb-2"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+                <div class="underlined underlined-footer footer-title mb-4">Enlaces</div>
+                <div class="footer-link mb-2">Cursos</div>
+                <div class="footer-link mb-2">Eventos</div>
+                <div class="footer-link mb-2">Noticias</div>
+                <div class="footer-link mb-2">Opiniones</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+                <div class="underlined underlined-footer footer-title mb-4">Gobierno de México</div>
+                <div class="footer-link mb-2">Participa</div>
+                <div class="footer-link mb-2">Publicaciones Oficiales</div>
+                <div class="footer-link mb-2">Marco Jurídico</div>
+                <div class="footer-link mb-2">Plataforma Nacional de Transparencia</div>
+                <div class="footer-link mb-2">Alerta</div>
+                <div class="footer-link mb-2">Denuncia</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+                <div class="underlined underlined-footer footer-title mb-4">Síguenos en</div>
+                <img src="./resources/Facebook.svg" class="mr-3" width="30px">
+                <img src="./resources/Twitter.svg" class="" width="30px">
+            </div>
+            <div class="col-12 px-5">
+                <hr class="mt-2" color="#fff" style="height: 1px;">
+            </div>
+            <div class="col-12 text-center mt-2" style="font-size: 11px; color: #dfdddd;">
+                Copyright Nacional Financiera 2022
+            </div>
+        </div>
+    </footer>
+
+
+    <template class="d-none" id="course-detail-template">
+    {{#.}}
+    <div class="col-12 course-overflow" style="background-image: url({{image}});     background-size: cover;">
+        <div id="ficha-curso">
+            <div class="row mb-4 mt-5 pt-2">
+                <div class="col-12">
+                    <h2>{{nombre}}</h2>
+                </div>
+            </div>
+            <div class="row" id="course-detail">
+                <!-- <div class="col-sm-5 col-md-3">
+                   
+                    <p class="font-weight-light">Instructor</p>
+                    <p class="font-weight-bold">{{instructor}}</p>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <p class="font-weight-light">Categoria</p>
+                    <p class="font-weight-bold">{{categoria}}</p>
+                </div>
+                <div class="col-sm-5 col-md-2">
+                    <p class="font-weight-light">Area</p>
+                    <p class="font-weight-bold">{{area}}</p>
+                </div> -->
+                <div class="col-sm-6 col-md-3">
+                    <p class="font-weight-light">Programa</p>
+                    <p class="font-weight-bold">{{programa}}</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--<img src="./resources/prueba.png" id="course-detail-img" class="img-fluid" alt="Responsive image" >-->
+    </div>
+    {{/.}}
+</template>
+
+<template class="d-none" id="dirijido-template">
+    {{#data}}
+   
+        <div class="col-md-8 col-sm-8">
+            <span style="font-weight: bold;">Dirigido a:</span> {{dirijido}}
+        </div>
+    {{/data}}
+
+    {{#cursos}}
+        <div class="col-md-4 col-sm-6">
+            <a class="btn-2" href="{{moodlelink}}" role="button">Empieza ahora</a>
+        </div>
+    
+
+    {{/cursos}}
+    </template>
+
+    <template class="d-none" id="tabs-template">
+    {{#.}}
+        <div id="vision" class="tab-pane fade active show">{{{vision}}} </div>
+        <div id="temario" class="tab-pane fade">{{{temario}}}</div>
+        <!-- <div id="instructor" class="tab-pane fade">{{{instructorDetalle}}}</div> -->
+        <div id="requisitos" class="tab-pane fade">{{{requisitos}}}</div>
+        <div id="ubicacion" class="tab-pane fade">{{{ubicacion}}}</div>
+        <div id="duracion" class="tab-pane fade">{{duracion}}</div>
+		<div id="video" class="tab-pane fade">
+			<video src="" autoplay poster="">
+				Tu navegador no tiene soporte para reproducir<code>videos</code>.
+			</video>
+		</div>
+    {{/.}}
+    </template>
+
+    <template class="d-none" id="aside-template">
+    {{#.}}
+    <div class="card d-none" >
+        <div class="card-header" id="aside-template">
+            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq4"
+            aria-expanded="true" aria-controls="faq3">Proceso de registro</a>
+        </div>
+
+        <div id="faq4"  aria-labelledby="faqhead4" data-parent="#faqaside">
+            <div class="card-body" style="font-weight: bolder;">
+                {{{registro}}}
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header" id="faqhead6">
+            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq6"
+            aria-expanded="true" aria-controls="faq6">Quizas te interese</a>
+        </div>
+
+        <div id="faq6"  aria-labelledby="faqhead6" data-parent="#faqaside">
+            <div class="card-body">
+                <div class="miniature">
+                    <img style="margin-right:5px" class="float-left" src="./resources/miniatura/buro-de-credito.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
+                    <div class="d-flex align-self-center">
+                        <p>Buró de crédito</p>
+                    </div>
+                </div>
+                <div class="miniature mt-3 mb-2">
+                    <img style="margin-right:5px" class="float-left" src="./resources/miniatura/finanzas-personales.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
+                    <div class="d-flex align-self-center">
+                        <p>Finanzas Personales</p>
+                    </div>
+                </div>
+                <div class="miniature mt-3 mb-2">
+                    <img style="margin-right:5px" class="float-left" src="./resources/miniatura/inversion-de-ahorro.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
+                    <div class="d-flex align-self-center">
+                        <p>Cetesdirecto, mecanimos de ahorro y alternativas de inversion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/.}}
+    </template>
+    <script type="text/javascript" src="./js/scroll-nav.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/mustache.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      
+    <script type="text/javascript">
+        $(document).ready(function () {
+            AOS.init({
+                // Global settings:
+                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                initClassName: 'aos-init', // class applied after initialization
+                animatedClassName: 'aos-animate', // class applied on animation
+                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+                // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+                offset: 120, // offset (in px) from the original trigger point
+                delay: 0, // values from 0 to 3000, with step 50ms
+                duration: 800, // values from 0 to 3000, with step 50ms
+                easing: 'ease', // default easing for AOS animations
+                once: false, // whether animation should happen only once - while scrolling down
+                mirror: false, // whether elements should animate out while scrolling past them
+                anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+            });
+
+            const params = new Proxy(new URLSearchParams(window.location.search), {
+                get: (searchParams, prop) => searchParams.get(prop),
+            });
+
+            console.log(params.course);
+            var cursoId = params.course;
+            console.log(cursoId);
+
+
+            var sector = params.sector === null || "" ? "CEF" : params.sector;
+
+             $.getJSON('./js/ficha-curso.json', function (data) {
+                console.log("cargando data");
+                console.log(data)
+                $.getJSON('./js/articles.json', function (dataArt) {
+                    displayUI(data,sector,cursoId,dataArt);
+                });
+             });
+
+
+
+            
+
+        });
+
+
+        function displayUI(data,sector,cursoId,dataArt){
+            //renderiza encabezado descripcion           
+            var courseData = {
+                    cursos : data.filter(curso => curso.id === cursoId),
+
+                };
+            
+            var categorias = {
+                    data : dataArt.categorias.filter(categoria => categoria.categoria === sector),
+                    cursos : data.filter(curso => curso.id === cursoId),
+
+                };
+            console.log(categorias);
+
+                
+            var courseTemplate = $('#course-detail-template').html();
+            var courseText = Mustache.render(courseTemplate,courseData.cursos);
+            $("#course-detail-container").html(courseText);
+
+
+            var tabsTemplate = $("#tabs-template").html();
+            var tabsText = Mustache.render(tabsTemplate,courseData.cursos);
+            $("#tabs-container") .html(tabsText);
+
+            var dirijidoTemplate = $("#dirijido-template").html();
+            var dirijidoText = Mustache.render(dirijidoTemplate,categorias);
+            $("#dirijido-container").html(dirijidoText);
+
+            var asideTemplate = $("#aside-template").html();
+            var asideText = Mustache.render(asideTemplate,courseData.cursos);
+            $("#faqaside") .html(asideText);
+        }
+    </script>
+</body>
+</html>

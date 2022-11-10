@@ -1,0 +1,285 @@
+{
+    "articles": [{
+        "titulo":"Cursos Presenciales",
+        "contentList":[
+            {"content":"Cetesdirecto mecanismos de ahorro y alternativas de inversión","link":"#"},
+            {"content":"Buró de crédito","link":"#"},
+            {"content":"Finanzas personales","link":"#"},
+            {"content":"ABC del crédito","link":"#"}
+ 
+        ],
+        "duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas",
+        "tags":{
+            "categoria":["CEF"]
+        }
+    },
+    {
+        "titulo":"Conferencias en vivo y a distancia (webinar)",
+        "contentList":[
+            {"content":"Cetesdirecto mecanismos de ahorro y alternativas de inversión","link":"#"},
+            {"content":"Buró de crédito","link":"#"},
+            {"content":"Finanzas personales","link":"#"}
+        ],
+        "duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas",
+        "tags":{
+            "categoria":["CEF"]
+        }
+    },
+    {
+        "titulo":"En línea, a tu ritmo y en cualquier momento",
+        "contentList":[
+            {"content":"Curso: Cetesdirecto mecanismos de ahorro y alternativas de inversión","link":"ficha-curso.html?course=53"},
+            {"content":"Curso: Buró de crédito","link":"ficha-curso.html?course=54"}
+        ],
+        "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual",
+        "tags":{
+            "categoria":["CEF"]
+        }
+    },
+
+
+    {
+        "titulo":"Cursos Presenciales",
+        "contentList":[
+            {"content":"Mujeres emprendedoras","link":""},
+            {"content":"Estrategias para generar ideas de negocio (creatividad y diseño ágil)","link":"#"},
+            {"content":"Forma tu microempresa","link":"#"},
+            {"content":"13 pasos para elaborar tu plan de negocios","link":"#"},
+            {"content":"Técnicas de investigación de mercados","link":"#"},
+            {"content":"Determina bien tus costos","link":"#"},
+            {"content":"Cómo promocionar eficientemente tu producto o servicio","link":"#"},
+            {"content":"Régimen Simplificado de Confianza (RESICO)","link":"#"},
+            {"content":"Cómo obtener un microcrédito","link":"#"}
+        ],
+        "duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas",
+        "tags":{
+            "categoria":["CN"]
+        }
+    },
+    {
+        "titulo":"Conferencias en vivo y a distancia (webinar)",
+        "contentList":[
+            {"content":"Mujeres emprendedoras","link":"#"},
+            {"content":"Desarrollo de habilidades y cultura de emprendimiento","link":"#"},
+            {"content":"De la idea al negocio Metodologías para concretar la idea en negocio","link":"#"},
+            {"content":"13 pasos para elaborar tu plan de negocios","link":"#"},
+            {"content":"Técnicas de investigación de mercados","link":"#"},
+            {"content":"El producto mínimo viable y validación en el mercado","link":"#"},
+            {"content":"Cómo promocionar eficientemente tu producto o servicio","link":"#"},
+            {"content":"Régimen Simplificado de Confianza (RESICO)","link":"#"},
+            {"content":"Cómo obtener un crédito en un banco","link":"#"}
+        ],
+        "duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas",
+        "tags":{
+            "categoria":["CN"]
+        }
+    },
+    {
+        "titulo":"En línea, a tu ritmo y en cualquier momento",
+        "contentList":[
+            {"content":"Mujeres emprendedoras","link":"ficha-curso.html?course=14"},
+            {"content":"13 pasos para elaborar tu plan de negocios","link":"#"},
+            {"content":"Técnicas de investigación de mercados","link":"#"},
+            {"content":"Determina bien tus costos","link":"#"},
+            {"content":"Cómo promocionar eficientemente tu producto o servicio","link":"#"},
+            {"content":"Servicio al cliente los 10 mandamientos","link":"#"},
+            {"content":"Régimen Simplificado de Confianza (RESICO)","link":"#"},
+            {"content":"Forjando Innovadores Protegidos","link":"#"},
+            {"content":"Cómo presentar mi proyecto de negocio","link":"#"},
+            {"content":"Cómo obtener un microcrédito","link":"ficha-curso.html?course=13"},
+            {"content":"Aprende a endeudarte","link":"ficha-curso.html?course=25"}
+        ],
+        "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual",
+        "tags":{
+            "categoria":["CN"]
+        }
+    },
+
+
+
+    {
+        "titulo":"Cursos Presenciales",
+        "contentList":[
+            {"content":"Mujer empresaria","link":"#"},
+            {"content":"Elige el tipo de sociedad para hacer crecer tu negocio","link":"#"},
+            {"content":"Ventas para pequeñas y medianas empresas","link":"#"},
+            {"content":"Servicio al cliente los 10 mandamientos","link":"#"},
+            {"content":"El recurso humano es la PYME","link":"#"},
+            {"content":"Cómo tratar exitosamente los problemas legales de tu empresa","link":"#"},
+            {"content":"Registra tu marca y valoriza tu empresa","link":"#"},
+            {"content":"Proceso de mejora continua","link":"#"},
+            {"content":"Justo a tiempo","link":"#"},
+            {"content":"Retos de la empresa familiar","link":"#"},
+            {"content":"Contabilidad básica para micro y pequeñas empresas","link":"#"},
+            {"content":"Mujer empresaria","link":"#"},
+            {"content":"Cómo administrar mis recursos financieros para hacer crecer mi negocio","link":"#"},
+            {"content":"Plan financiero para Mipymes","link":"#"},
+            {"content":"Doble contabilidad y los riesgos que conlleva","link":"#"},
+            {"content":"Buró de crédito","link":"#"},
+            {"content":"Mejores prácticas para acceder al financiamiento","link":"#"},
+            {"content":"Taller de integración de expedientes de crédito (promotorías NAFIN)","link":"#"},
+            {"content":"Introducción al marketing digital","link":"#"},
+            {"content":"Facebook como herramienta para impulsar mi negocio","link":"#"},
+            {"content":"Twitter como medio de posicionamiento de mi negocio","link":"#"},
+            {"content":"Cómo potenciar mis ventas a través de Instagram","link":"#"},
+            {"content":"Wordpress la creación de tu sitio web","link":"#"},
+            {"content":"El e commerce como estrategia para el crecimiento de tu negocio","link":"#"},
+            {"content":"Google Ads como estrategia para incrementar la visibilidad de tu negocio","link":"#"},
+            {"content":"Woocomerce la creación de tu tienda en línea","link":"#"}
+        
+        ],
+            "duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas",
+            "tags":{
+                "categoria":["CFE"]
+            }
+    },
+    {
+        "titulo":"Conferencias en vivo y a distancia (webinar)",
+        "contentList":[
+            {"content": "Mujer empresaria","link":"#"},
+            {"content": "Elige el tipo de sociedad para hacer crecer tu negocio","link":"#"},
+            {"content": "Liderazgo efectivo para el crecimiento del negocio","link":"#"},
+            {"content": "El uso de las tecnologías para posicionamiento y expansión de mi negocio","link":"#"},
+            {"content": "El recurso humano es la Pyme","link":"#"},
+            {"content": "El control interno como herramienta de eficiencia en mi negocio (Procesos)","link":"#"},
+            {"content": "Contabilidad básica para micro y pequeñas empresas","link":"#"},
+            {"content": "Mejores prácticas para acceder al financiamiento","link":"#"},
+            {"content": "Cómo administrar mis recursos financieros para hacer crecer mi negocio","link":"#"},
+            {"content": "Profesionalización e institucionalización de mi empresa","link":"#"},
+            {"content": "Plan financiero para Mipymes","link":"#"},
+            {"content": "Plan integral de marketing","link":"#"},
+            {"content": "Protocolo de familia","link":"#"},
+            {"content": "Intraemprendimiento, identificando oportunidades de negocio","link":"#"},
+            {"content": "Contabilidad básica para micro y pequeñas empresas","link":"#"},
+            {"content": "Cómo administrar mis recursos financieros para hacer crecer mi negocio","link":"#"},
+            {"content": "Contabilidad fiscal y contabilidad financiera","link":"#"},
+            {"content": "Doble contabilidad y los riesgos que conlleva","link":"#"},
+            {"content": "Evaluación de proyectos de inversión para el crecimiento de mi negocio","link":"#"},
+            {"content": "Productos financieros Nafin para tu empresa","link":"#"},
+            {"content": "Introducción al marketing digital","link":"#"},
+            {"content": "Facebook como herramienta para impulsar mi negocio","link":"#"},
+            {"content": "Twitter como medio de posicionamiento de mi negocio","link":"#"},
+            {"content": "Cómo potenciar mis ventas a través de Instagram","link":"#"},
+            {"content": "Wordpress la creación de tu sitio web","link":"#"},
+            {"content": "El e commerce como estrategia para el crecimiento de tu negocio","link":"#"},
+            {"content": "Google Ads como estrategia para incrementar la visibilidad de tu negocio","link":"#"},
+            {"content": "Woocomerce la creación de tu tienda en línea","link":"#"}
+ 
+        ],
+        "duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas",
+        "tags":{
+            "categoria":["CFE"]
+        }
+    },
+    {
+        "titulo":"En línea, a tu ritmo y en cualquier momento",
+        "contentList":[
+            {"content":"Mujer Empresaria","link":"ficha-curso.html?course=26"},
+            {"content":"Retos de la empresa familiar","link":"#"},
+            {"content":"Planeación estratégica, hacia dónde quiero llegar con mi empresa","link":"#"},
+            {"content":"El recurso humano es la Pyme","link":"#"},
+            {"content":"Ventas para pequeñas y medianas empresas","link":"ficha-curso.html?course=30"},
+            {"content":"Contabilidad básica para micro y pequeñas empresas","link":"ficha-curso.html?course=31"},
+            {"content":"Incorpora las redes sociales a tu empresa","link":"ficha-curso.html?course=32"},
+            {"content":"Registra tu marca y valoriza tu empresa","link":"#"},
+            {"content":"Cómo tratar exitosamente los problemas legales de tu empresa","link":"#"},
+            {"content":"Calidad en las Mipymes","link":"ficha-curso.html?course=35"},
+            {"content":"Prevención de desastres y continuidad de negocios","link":"#"},
+            {"content":"Cómo obtener un crédito en un banco","link":"ficha-curso.html?course=37"},
+            {"content":"Productos y servicios financieros Nafin para tu empresa","link":""},
+            {"content":"Conoce cadenas productivas","link":"ficha-curso.html?course=39"}
+        ],
+        "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual. Atención uno a uno consultor-empresa.",
+        "tags":{
+            "categoria":["CFE"]
+        }
+    },
+    {
+        "titulo":"Asistencia técnica",
+        "contentList":[
+            {"content" : "Llena el formulario de perfilamiento","link":"#"},
+            {"content" : "Programa de diagnóstico","link":"#"}
+        ],
+        "duracion":"Duración de 2 horas por sesión quincenal en un periodo de 4 hasta 6 meses. Presencial y/o en línea. ",
+        "tags":{
+            "categoria":["CFE"]
+        }
+    },
+    {
+        "titulo":"Conferencias en vivo y a distancia (webinar)",
+        "contentList":[
+            {"content" : "Introducción al gobierno corporativo", "link":"#"},
+            {"content" : "La sucesión en la empresa familiar, el retiro del fundador", "link":"#"},
+            {"content" : "Protocolo de familia", "link":"#"},
+            {"content" : "Profesionalización e institucionalización de mi empresa", "link":"#"},
+            {"content" : "Certificación PRIME (Bancomext)", "link":"#"},
+            {"content" : "Exportar opción de crecimiento para las Mipymes", "link":"#"},
+            {"content" : "Mercados potenciales internacionales", "link":"#"},
+            {"content" : "Incoterms", "link":"#"},
+            {"content" : "Simulación de situaciones de riesgo utilizando los incoterms", "link":"#"},
+            {"content" : "Cómo integrar una cotización internacional utilizando INCOTERMS 2020", "link":"#"},
+            {"content" : "El funcionamiento de la carta de crédito", "link":"#"},
+            {"content" : "Diferencias culturales en las negociaciones con otros países", "link":"#"},
+            {"content" : "Errores más comunes al exportar", "link":"#"},
+            {"content" : "Plan de negocios para la exportación (PLANEX)", "link":"#"},
+            {"content" : "Responsabilidad social con enfoque al desarrollo de proveedores", "link":"#"},
+            {"content" : "Productos financieros para la exportación Bancomext (Cartas de crédito y Factoraje internacional)", "link":"#"}
+        ],
+        "duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores",
+        "tags":{
+            "categoria":["CCE"]
+        }
+    },
+    {
+        "titulo":"En línea, a tu ritmo y en cualquier momento",
+        "contentList":[
+            {"content": "Cómo hacer de mi empresa familiar una empresa institucional","link": "ficha-curso.html?course=40"},
+            {"content": "Construyendo Empresas Socialmente Responsables","link": "#"}
+
+        ],
+        "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual.",
+        "tags":{
+            "categoria":["CCE"]
+        }
+    }
+
+    ],
+    
+    "categorias": [
+        {
+            "categoria":"CEF",
+            "nombre":"Inclusión o Educación financiera",
+            "segmento":"Social",
+            "dirijido":"Personas físicas",
+            "descripcion":"En esta sección aprenderás sobre los beneficios del ahorro y la inversión, la adopción de servicios financieros y adecuada administración financiera personal.",
+            "img": "./resources/socialeducacionfinanciera"
+        },
+        {
+            "categoria":"CN",
+            "nombre":"Creacion de nuevas empresas",
+            "segmento":"Empresarial",
+            "dirijido":"Emprendedores y microempresas",
+            "descripcion":"En esta sección aprenderás desde como generar tu idea de negocio hasta como hacer realidad tu emprendimiento.",
+            "img": "./resources/creaciondenegocios"
+        },
+        {
+            "categoria":"CFE",
+            "nombre":"Fortalecer o consolidar empresas",
+            "segmento":"Empresarial",
+            "dirijido":"Microempresas y pequeñas empresas",
+            "descripcion":"En esta sección aprenderás las mejores prácticas empresariales para que tu empresa perdure y cuente con un modelo de negocio eficiente y rentable",
+            "img": "./resources/fortalizacionempresarial"
+        },
+        {
+            "categoria":"CCE",
+            "nombre":"Ampliar Empresas",
+            "segmento":"Empresarial",
+            "dirijido":"Pequeñas y medianas empresas",
+            "descripcion":"En esta sección aprenderás cómo crecer tu empresa a través de financiamiento y herramientas corporativas.",
+            "img": "./resources/consolidadcionempresarial"
+        }
+
+    ]
+
+}
+
