@@ -5,32 +5,9 @@
         "contentList":[
 
         
+   
     {
-        "id": "53",
-        "nombre": "Cetesdirecto mecanismos de ahorro y alternativas de inversión",
-        "instructor": "Rosa Arduino",
-        "categoria": "Social",
-        "area": "Educación Financiera",
-        "duracion": "2 semanas",
-        "ubicacion": "En línea",
-        "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-        "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-        "vision": "Está enfocado en la promoción de la figura del ahorro e inversión en la población en general.",
-        "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-        "programa": "Inclusión o Educación financiera",
-        "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-        "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-        "relacionados": [
-            1,
-            3,
-            4
-        ],
-        "image": "./resources/cursos/cetesdirecto1755x380.png",
-        "miniature": "./resources/cursos/cetesdirecto150x150.png",
-        "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=53"
-    },
-    {
-        "id": "54",
+        "id": "3",
         "nombre": "Buró de crédito",
         "instructor": "Juan Perez",
         "categoria": "Social",
@@ -51,7 +28,31 @@
         ],
         "image": "./resources/cursos/burodecredito1755x380.png",
         "miniature": "./resources/cursos/burodecredito150x150.png",
-        "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=54"
+        "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
+    },
+    {
+        "id": "4",
+        "nombre": "Aprende a endeudarte",
+        "instructor": "Rosa Arduino",
+        "categoria": "Social",
+        "area": "Educación Financiera",
+        "duracion": "2 semanas",
+        "ubicacion": "En línea",
+        "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+        "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+        "vision": "Está enfocado en la promoción de la figura del ahorro e inversión en la población en general.",
+        "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+        "programa": "Inclusión o Educación financiera",
+        "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+        "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+        "relacionados": [
+            1,
+            3,
+            4
+        ],
+        "image": "./resources/cursos/aprendeaendeudarte1755x380.png",
+        "miniature": "./resources/cursos/aprendeaendeudarte150x150.png",
+        "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=4"
     }
         ]
     },
@@ -60,7 +61,7 @@
         "titulo":"Creación de Nuevas Empresas",
         "contentList":[
             {
-                "id": "14",
+                "id": "5",
                 "nombre": "Mujeres emprendedoras",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -81,10 +82,10 @@
                 ],
                 "image": "./resources/cursos/mujeresemprendedoras1755x380.png",
                 "miniature": "./resources/cursos/mujeresemprendedoras150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=14"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=5"
             },
             {
-                "id": "23",
+                "id": "6",
                 "nombre": "13 pasos para elaborar tu plan de negocios",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -105,10 +106,10 @@
                 ],
                 "image": "./resources/cursos/13pasosparaelaborartuplandenegocios1755x380.png",
                 "miniature": "./resources/cursos/13pasosparaelaborartuplandenegocios150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=23"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=6"
             },
             {
-                "id": "24",
+                "id": "7",
                 "nombre": "Técnicas de investigación de mercados",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -129,10 +130,10 @@
                 ],
                 "image": "./resources/cursos/tecnicasdeinvestigaciondemercados1755x380.png",
                 "miniature": "./resources/cursos/tecnicasdeinvestigaciondemercados150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=24"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=7"
             },
             {
-                "id": "18",
+                "id": "8",
                 "nombre": "Determina bien tus costos",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -153,10 +154,10 @@
                 ],
                 "image": "./resources/cursos/determinabientuscostos1755x380.png",
                 "miniature": "./resources/cursos/determinabientuscostos150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=18"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=8"
             },
             {
-                "id": "12",
+                "id": "9",
                 "nombre": "Cómo promocionar eficientemente tu producto o servicio",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -177,10 +178,10 @@
                 ],
                 "image": "./resources/cursos/comopromocionareficientementetuproductooservicio1755x380.png",
                 "miniature": "./resources/cursos/comopromocionareficientementetuproductooservicio1150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=12"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=9"
             },
             {
-                "id": "16",
+                "id": "10",
                 "nombre": "Servicio al cliente los 10 mandamientos",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -201,10 +202,10 @@
                 ],
                 "image": "./resources/cursos/comopromocionareficientementetuproductooservicio1755x380.png",
                 "miniature": "./resources/cursos/servicioalclientelos10mandamientos150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=16"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=10"
             },
             {
-                "id": "19",
+                "id": "11",
                 "nombre": "Régimen Simplificado de Confianza (RESICO)",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -225,10 +226,10 @@
                 ],
                 "image": "./resources/cursos/resico1755x380.png",
                 "miniature": "./resources/cursos/resico150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=19"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=11"
             },
             {
-                "id": "17",
+                "id": "12",
                 "nombre": "Forjando Innovadores Protegidos",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -249,10 +250,10 @@
                 ],
                 "image": "./resources/cursos/forjandoinnovadoresprotegidos1755x380.png",
                 "miniature": "./resources/cursos/forjandoinnovadoresprotegidos150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=17"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=12"
             },
             {
-                "id": "11",
+                "id": "13",
                 "nombre": "Cómo presentar mi proyecto de negocio",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
@@ -273,7 +274,31 @@
                 ],
                 "image": "./resources/cursos/comopresentarmiproyectodenegocio1755x380.png",
                 "miniature": "./resources/cursos/comopresentarmiproyectodenegocio150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=11"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=13"
+            },
+            {
+                "id": "14",
+                "nombre": "Cómo obtener un microcrédito",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "",
+                "temario": "Módulo I. El Crédito empresarial <br>Módulo II. Sujeto de crédito <br>Módulo III. Cómo determina un banco si otorga o no un crédito <br>Módulo IV. Requerimientos y características de los pagos.",
+                "programa": "Brinda información relevante al empresario sobre cómo obtener un crédito a partir de identificar necesidades y gestionar un crédito en un banco",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/comoobteneruncreditoenunbanco1755x380.png",
+                "miniature": "./resources/cursos/comoobteneruncreditoenunbanco150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=14"
             }
         ]
         
@@ -283,8 +308,8 @@
         "titulo":"Fortalecer o Consolidar Empresas",
         "contentList":[
             {
-                "id": "13",
-                "nombre": "Cómo obtener un microcrédito",
+                "id": "15",
+                "nombre": "Iniciativa mujer",
                 "instructor": "Rosa María Arduino",
                 "categoria": "Social",
                 "area": "Educación Financiera",
@@ -302,9 +327,174 @@
                     3,
                     4
                 ],
-                "image": "./resources/cursos/comoobteneruncreditoenunbanco1755x380.png",
-                "miniature": "./resources/cursos/comoobteneruncreditoenunbanco150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=13"
+                "image": "./resources/cursos/mujerempresaria1755x380.png",
+                "miniature": "./resources/cursos/mujerempresaria150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=15"
+            },
+            {
+                "id": "16",
+                "nombre": "Retos de la empresa familiar",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Brinda información valiosa al empresario para que cuente con herramientas metodológicas, acciones y tareas a desarrollar en apoyo a su empresa familiar para minimizar el cúmulo de situaciones tensas y conflicto que surgen a partir de procesos como la sucesión, la continuidad, el crecimiento de la empresa o la búsqueda de la administración profesional.",
+                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/retosdelaempresafamiliar1755x380.png",
+                "miniature": "./resources/cursos/retosdelaempresafamiliar150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=16"
+            },
+            {
+                "id": "17",
+                "nombre": "Planeación estratégica, hacia dónde quiero llegar con mi empresa",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "2 semanas",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Brinda al empresario información relevante a a través de la cual podrá implementar las actividades necesarias para realizar una planeación estratégica en su empresa o negocio.",
+                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/planeacionestrategicahaciadondequierollegarconmiempresa1755x380.png",
+                "miniature": "./resources/cursos/planeacionestrategicahaciadondequierollegarconmiempresa150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=17"
+            },
+            {
+                "id": "18",
+                "nombre": "Ventas para pequeñas y medianas empresas",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Orienta al empresario sobre diversas metodologías para establecer un modelo efectivo de ventas en su negocio.",
+                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+                "programa": "Técnicas de venta para mi negocio",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/ventasparapequenasymedianasempresas1755x380.png",
+                "miniature": "./resources/cursos/ventasparapequeñasymedianasempresas150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=18"
+            },
+            {
+                "id": "19",
+                "nombre": "Incorpora las redes sociales a tu empresa",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Brinda información relevbante al empresario sobre herramientas y conocimientos básicos para llevar a cabo una estrategia de posicionamiento y promoción en redes sociales ( para la empresa).",
+                "temario": "Módulo I. Cómo pueden las redes sociales ayudar a mi negocio<br>Módulo II. Mi negocio en las redes sociales",
+                "programa": "Técnicas de venta para mi negocio",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/incorporalasredessocialesatuempresa1755x380.png",
+                "miniature": "./resources/cursos/incorporalasredessocialesatuempresa150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=19"
+            },
+            {
+                "id": "20",
+                "nombre": "El recurso humano es la Pyme",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "2 semanas",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": " Brinda información valiosa al empresario sobre la importancia de considerar y gestionar a los colaboradores, como el capital más importante del negocio o PYME así mismo, proporciona algunos tips sugerencias y herramientas para mejorar las funciones clave como son reclutamiento selección, contratación y capacitación de los colaboradores.",
+                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/elrecursohumanoeslapyme1755x380.png",
+                "miniature": "./resources/cursos/elrecursoelrecursohumanoeslapyme150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=20"
+            },
+            {
+                "id": "21",
+                "nombre": "Conceptos financieros básicos",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
+                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
+                "programa": "Administrando los recursos en mi negocio",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=21"
+            },
+            {
+                "id": "22",
+                "nombre": "Contabilidad básica para micro y pequeñas empresas",
+                "instructor": "Rosa María Arduino",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
+                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
+                "programa": "Administrando los recursos en mi negocio",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=22"
             },
             {
                 "id": "25",
@@ -328,7 +518,7 @@
                 ],
                 "image": "./resources/cursos/aprendeaendeudarte1755x380.png",
                 "miniature": "./resources/cursos/aprendeaendeudarte150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=25"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "26",
@@ -352,149 +542,9 @@
                 ],
                 "image": "./resources/cursos/mujerempresaria1755x380.png",
                 "miniature": "./resources/cursos/mujerempresaria150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=26"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
-            {
-                "id": "27",
-                "nombre": "Retos de la empresa familiar",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda información valiosa al empresario para que cuente con herramientas metodológicas, acciones y tareas a desarrollar en apoyo a su empresa familiar para minimizar el cúmulo de situaciones tensas y conflicto que surgen a partir de procesos como la sucesión, la continuidad, el crecimiento de la empresa o la búsqueda de la administración profesional.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/retosdelaempresafamiliar1755x380.png",
-                "miniature": "./resources/cursos/retosdelaempresafamiliar150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=27"
-            },
-            {
-                "id": "28",
-                "nombre": "Planeación estratégica, hacia dónde quiero llegar con mi empresa",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "2 semanas",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda al empresario información relevante a a través de la cual podrá implementar las actividades necesarias para realizar una planeación estratégica en su empresa o negocio.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/planeacionestrategicahaciadondequierollegarconmiempresa1755x380.png",
-                "miniature": "./resources/cursos/planeacionestrategicahaciadondequierollegarconmiempresa150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=28"
-            },
-            {
-                "id": "29",
-                "nombre": "El recurso humano es la Pyme",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "2 semanas",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": " Brinda información valiosa al empresario sobre la importancia de considerar y gestionar a los colaboradores, como el capital más importante del negocio o PYME así mismo, proporciona algunos tips sugerencias y herramientas para mejorar las funciones clave como son reclutamiento selección, contratación y capacitación de los colaboradores.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/elrecursohumanoeslapyme1755x380.png",
-                "miniature": "./resources/cursos/elrecursoelrecursohumanoeslapyme150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=29"
-            },
-            {
-                "id": "30",
-                "nombre": "Ventas para pequeñas y medianas empresas",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Orienta al empresario sobre diversas metodologías para establecer un modelo efectivo de ventas en su negocio.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Técnicas de venta para mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/ventasparapequenasymedianasempresas1755x380.png",
-                "miniature": "./resources/cursos/ventasparapequeñasymedianasempresas150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=30"
-            },
-            {
-                "id": "31",
-                "nombre": "Contabilidad básica para micro y pequeñas empresas",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
-                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
-                "programa": "Administrando los recursos en mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
-                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=31"
-            },
-            {
-                "id": "32",
-                "nombre": "Incorpora las redes sociales a tu empresa",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda información relevbante al empresario sobre herramientas y conocimientos básicos para llevar a cabo una estrategia de posicionamiento y promoción en redes sociales ( para la empresa).",
-                "temario": "Módulo I. Cómo pueden las redes sociales ayudar a mi negocio<br>Módulo II. Mi negocio en las redes sociales",
-                "programa": "Técnicas de venta para mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/incorporalasredessocialesatuempresa1755x380.png",
-                "miniature": "./resources/cursos/incorporalasredessocialesatuempresa150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=32"
-            },
+            
             {
                 "id": "33",
                 "nombre": "Registra tu marca y valoriza tu empresa",
@@ -517,7 +567,7 @@
                 ],
                 "image": "./resources/cursos/registratumarcayvalorizatuempresa1755x380.png",
                 "miniature": "./resources/cursos/registratumarcayvalorizatuempresa150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=33"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "34",
@@ -541,7 +591,7 @@
                 ],
                 "image": "./resources/cursos/comotratarexitosamentelosproblemaslegalesdetuempresa1755x380.png",
                 "miniature": "./resources/cursos/comotratarexitosamentelosproblemaslegalesdetuempresa150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=34"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "35",
@@ -565,7 +615,7 @@
                 ],
                 "image": "./resources/cursos/calidadenlasmipymes1755x380.png",
                 "miniature": "./resources/cursos/calidadenlasmipymes150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=35"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "36",
@@ -589,7 +639,7 @@
                 ],
                 "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
                 "miniature": "./resources/cursos/prevencióndedesastresycontinuidaddenegocios150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=36"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "37",
@@ -613,7 +663,7 @@
                 ],
                 "image": "./resources/cursos/comoobteneruncreditoenunbanco1755x380.png",
                 "miniature": "./resources/cursos/comoobteneruncreditoenunbanco150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=37"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "38",
@@ -637,7 +687,7 @@
                 ],
                 "image": "./resources/cursos/productosyserviciosfinancierosnafinparatuempresa1755x380.png",
                 "miniature": "./resources/cursos/productosyserviciosfinancierosnafinparatuempresa150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=38"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "39",
@@ -661,7 +711,7 @@
                 ],
                 "image": "./resources/cursos/conocecadenasproductivas1755x380.png",
                 "miniature": "./resources/cursos/conocecadenasproductivas150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=39"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "40",
@@ -685,7 +735,7 @@
                 ],
                 "image": "./resources/cursos/comohacerdemiempresafamiliarunaempresainstitucional1755x380.png",
                 "miniature": "./resources/cursos/comohacerdemiempresafamiliarunaempresainstitucional150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=40"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             },
             {
                 "id": "41",
@@ -709,7 +759,7 @@
                 ],
                 "image": "./resources/cursos/construyendoempresassocialmenteresponsables1755x380.png",
                 "miniature": "./resources/cursos/construyendoempresassocialmenteresponsables150x150.png",
-                "moodlelink": "https://covasmart.com.mx/capacita/course/view.php?id=41"
+                "moodlelink": "http://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=3"
             }
         ]
     }
