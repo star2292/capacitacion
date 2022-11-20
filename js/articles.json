@@ -16,7 +16,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/03. Finanzas personales.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Inclusion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
         ],
         "tags":{
             "categoria":["CEF"]
@@ -50,7 +50,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/03. Finanzas personales.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Promocion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
         ],
 
         
@@ -108,7 +108,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/03. Finanzas personales.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
         ],
         "tags":{
                 "categoria":["CFE"]
