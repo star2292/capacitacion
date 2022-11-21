@@ -114,18 +114,7 @@
                 "categoria":["CFE"]
             }
     },
-    {
-        "titulo":"Asistencia técnica",
-        "tipo":"AT",
-        "contentList":[
-            {"content" : "Llena el formulario de perfilamiento","link":"#"},
-            {"content" : "Programa de diagnóstico","link":"#"}
-        ],
-        "duracion":"Duración de 2 horas por sesión quincenal en un periodo de 4 hasta 6 meses. Presencial y/o en línea. ",
-        "tags":{
-            "categoria":["CFE"]
-        }
-    },
+    
     {
         "titulo":"Conferencias en vivo y a distancia (webinar)",
         "tipo":"CVD",
