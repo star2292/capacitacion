@@ -4,7 +4,8 @@
         "tipo":"L",
         "contentList":[
             {"content":"Curso: Aprende a endeudarte","link":"ficha-curso.html?course=4&sector=CEF"},
-            {"content":"Curso: Buró de crédito","link":"ficha-curso.html?course=3&sector=CEF"}
+            {"content":"Curso: Buró de crédito","link":"ficha-curso.html?course=3&sector=CEF"},
+            {"content":"Curso: Cetesdirecto mecanismos de ahorro y alternativas de inversión","link":"ficha-curso.html?course=2&sector=CEF"}
         ],
         "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual",
         "tags":{
@@ -15,8 +16,8 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Inclusion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Webinars","link":"./content/Calendario-Inclusion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
             "categoria":["CEF"]
@@ -49,8 +50,8 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Promocion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Webinars","link":"./content/Calendario-Promocion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
 
         
@@ -107,8 +108,8 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1"},
-            {"content":"Conferencias en vivo y a distancia (webinar)","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2"}
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Webinars","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
                 "categoria":["CFE"]

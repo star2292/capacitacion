@@ -6,7 +6,30 @@
         "contentList":[
 
         
-   
+            {
+                "id": "2",
+                "nombre": "Cetesdirecto mecanismos de ahorro y alternativas de inversión",
+                "instructor": "Juan Perez",
+                "categoria": "Social",
+                "area": "Educación Financiera",
+                "duracion": "2 semanas",
+                "ubicacion": "En línea",
+                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+                "vision": "Brinda información al público en general sobre los beneficios de contar con un historial crediticio sano y ocuparlo a su favor para su desarrollo personal y familiar.",
+                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+                "programa": "Inclusión o Educación financiera",
+                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+                "relacionados": [
+                    1,
+                    3,
+                    4
+                ],
+                "image": "./resources/cursos/cetesdirecto1755x380.png",
+                "miniature": "./resources/cursos/cetesdirecto150x150.png",
+                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=2"
+            },
     {
         "id": "3",
         "nombre": "Buró de crédito",
