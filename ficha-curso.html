@@ -206,13 +206,13 @@
 
     <template class="d-none" id="tabs-template">
     {{#.}}
-        <div id="vision" class="tab-pane fade active show">{{{vision}}} </div>
+        <div id="vision" class="tab-pane fade ">{{{vision}}} </div>
         <div id="temario" class="tab-pane fade">{{{temario}}}</div>
         <!-- <div id="instructor" class="tab-pane fade">{{{instructorDetalle}}}</div> -->
         <div id="requisitos" class="tab-pane fade">{{{requisitos}}}</div>
         <div id="ubicacion" class="tab-pane fade">{{{ubicacion}}}</div>
         <div id="duracion" class="tab-pane fade">{{duracion}}</div>
-		<div id="video" class="tab-pane fade">
+		<div id="video" class="tab-pane fade active show">
 			<video src="{{videolink}}" autoplay controls poster="" width="90%">
 				Tu navegador no tiene soporte para reproducir<code>videos</code>.
 			</video>
@@ -251,14 +251,14 @@
                         <p>Buró de crédito</p>
                     </div>
                 </div>
-            </a><a>
+            </a><a href="./ficha-curso.html?course=33&sector=CEF">
                 <div class="miniature mt-3 mb-2">
-                    <img style="margin-right:5px" class="float-left" src="./resources/miniatura/finanzas-personales.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
+                    <img style="margin-right:5px" class="float-left" src="./resources/cursos/comoobteneruncreditoenunbanco150x150.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
                     <div class="d-flex align-self-center">
-                        <p>Finanzas Personales</p>
+                        <p>Cómo obtener crédito en un banco</p>
                     </div>
                 </div>
-            </a><a>
+            </a><a href="./ficha-curso.html?course=2&sector=CEF">
                 <div class="miniature mt-3 mb-2">
                     <img style="margin-right:5px" class="float-left" src="./resources/miniatura/inversion-de-ahorro.png" onerror="this.onerror=null; this.src='./resources/maps/iconostablaestados/70.png'" alt="" width="100" height="100">
                     <div class="d-flex align-self-center">

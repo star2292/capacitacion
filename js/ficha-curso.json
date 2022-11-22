@@ -1,5 +1,29 @@
 [
-   
+    {
+        "id": "2",
+        "nombre": "Cetesdirecto mecanismos de ahorro y alternativas de inversión",
+        "instructor": "Juan Perez",
+        "categoria": "Social",
+        "area": "Educación Financiera",
+        "duracion": "2 semanas",
+        "ubicacion": "En línea",
+        "requisitos": "Es recomendable haber tomado el curso de fundamentos",
+        "audencia": "Personas Fisicas interesadas en crear su primer negocio",
+        "vision": "Brinda información al público en general sobre los beneficios de contar con un historial crediticio sano y ocuparlo a su favor para su desarrollo personal y familiar.",
+        "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
+        "programa": "Inclusión o Educación financiera",
+        "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
+        "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
+        "relacionados": [
+            1,
+            3,
+            4
+        ],
+        "image": "./resources/cursos/cetesdirecto1755x380.png",
+        "miniature": "./resources/cursos/cetesdirecto150x150.png",
+        "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=2",
+        "videolink":"./resources/videos/CETES.mp4"
+    },
     {
         "id": "3",
         "nombre": "Buró de crédito",
@@ -320,7 +344,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/mujerempresaria1755x380.png",
+        "image": "./resources/cursos/iniciativamujer1755x380.png",
         "miniature": "./resources/cursos/iniciativamujer150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=15",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -467,7 +491,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+        "image": "./resources/cursos/conceptosfinancierosbasicos1755x380.png",
         "miniature": "./resources/cursos/conceptosfinancierosbasicos150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=21",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -517,7 +541,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+        "image": "./resources/cursos/gestiondecostos-1755x380.png",
         "miniature": "./resources/cursos/gestiondecostos-150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=23",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -542,7 +566,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+        "image": "./resources/cursos/matematicasentiendetusfinanzasentrenumeros1755x380.png",
         "miniature": "./resources/cursos/matematicasentiendetusfinanzasentrenumeros150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=24",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -567,7 +591,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
+        "image": "./resources/cursos/comoanalizartusestadosfinancieros1755x380.png",
         "miniature": "./resources/cursos/comoanalizartusestadosfinancieros150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=25",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -595,7 +619,7 @@
         "image": "./resources/cursos/comotratarexitosamentelosproblemaslegalesdetuempresa1755x380.png",
         "miniature": "./resources/cursos/comotratarexitosamentelosproblemaslegalesdetuempresa150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=26",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/como-tratar-exitosamente-los problemas-legale.mp4"
     },
     {
         "id": "27",
@@ -620,7 +644,7 @@
         "image": "./resources/cursos/registratumarcayvalorizatuempresa1755x380.png",
         "miniature": "./resources/cursos/registratumarcayvalorizatuempresa150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=27",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/marca-registrada.mp4"
     },
     {
         "id": "28",
@@ -645,7 +669,7 @@
         "image": "./resources/cursos/calidadenlasmipymes1755x380.png",
         "miniature": "./resources/cursos/calidadenlasmipymes150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=28",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/calidad-en-las-mipymes.mp4"
     },
     {
         "id": "29",
@@ -692,7 +716,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
+        "image": "./resources/cursos/importanciadelfinanciamiento1755x380.png",
         "miniature": "./resources/cursos/importanciadelfinanciamiento150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=30",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -717,7 +741,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
+        "image": "./resources/cursos/tiposdefinanciamiento1755x380.png",
         "miniature": "./resources/cursos/tiposdefinanciamiento150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=31",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -742,7 +766,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
+        "image": "./resources/cursos/aspectoslegalesenelcredito1755x380.png",
         "miniature": "./resources/cursos/aspectoslegalesenelcredito150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=32",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -770,7 +794,7 @@
         "image": "./resources/cursos/comoobteneruncreditoenunbanco1755x380.png",
         "miniature": "./resources/cursos/comoobteneruncreditoenunbanco150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=33",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/credito-banco.mp4"
     },
     {
         "id": "34",
@@ -795,7 +819,7 @@
         "image": "./resources/cursos/productosyserviciosfinancierosnafinparatuempresa1755x380.png",
         "miniature": "./resources/cursos/productosyserviciosfinancierosnafinparatuempresa150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=34",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/productos-y-servicios-financieros-empresa.mp4"
     },
     {
         "id": "35",
@@ -820,7 +844,7 @@
         "image": "./resources/cursos/conocecadenasproductivas1755x380.png",
         "miniature": "./resources/cursos/conocecadenasproductivas150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=35",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/cadenas_productivas.mp4"
     },
     {
         "id": "36",
@@ -842,7 +866,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/mujerempresaria1755x380.png",
+        "image": "./resources/cursos/lasmujeresysupapelenelcomercioexterior-1755x380.png",
         "miniature": "./resources/cursos/lasmujeresysupapelenelcomercioexterior150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=36",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -870,7 +894,7 @@
         "image": "./resources/cursos/comohacerdemiempresafamiliarunaempresainstitucional1755x380.png",
         "miniature": "./resources/cursos/comohacerdemiempresafamiliarunaempresainstitucional150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=37",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/empresa-familiar.mp4"
     },
     {
         "id": "39",
@@ -895,7 +919,7 @@
         "image": "./resources/cursos/construyendoempresassocialmenteresponsables1755x380.png",
         "miniature": "./resources/cursos/construyendoempresassocialmenteresponsables150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=39",
-        "videolink":"./resources/videos/buro_credito.mp4"
+        "videolink":"./resources/videos/construyendo-empresas-socialmente-responsables.mp4"
     },
     {
         "id": "41",
@@ -917,7 +941,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/aprendeaendeudarte1755x380.png",
+        "image": "./resources/cursos/mediosdepagointernacional1755x380.png",
         "miniature": "./resources/cursos/mediosdepagointernacional150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=41",
         "videolink":"./resources/videos/buro_credito.mp4"
@@ -942,7 +966,7 @@
             3,
             4
         ],
-        "image": "./resources/cursos/registratumarcayvalorizatuempresa1755x380.png",
+        "image": "./resources/cursos/segurodecreditoalaexportacion1755x380.png",
         "miniature": "./resources/cursos/segurodecreditoalaexportacion150x150.png",
         "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=44",
         "videolink":"./resources/videos/buro_credito.mp4"
