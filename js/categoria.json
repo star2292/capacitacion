@@ -202,7 +202,7 @@
                     3,
                     4
                 ],
-                "image": "./resources/cursos/comopromocionareficientementetuproductooservicio1755x380.png",
+                "image": "./resources/cursos/servicioalclientelos10mandamientos1755x380.png",
                 "miniature": "./resources/cursos/servicioalclientelos10mandamientos150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=10"
             },
@@ -331,7 +331,7 @@
                     4
                 ],
                 "image": "./resources/cursos/mujerempresaria1755x380.png",
-                "miniature": "./resources/cursos/mujerempresaria150x150.png",
+                "miniature": "./resources/cursos/iniciativamujer150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=15"
             },
             {
@@ -472,7 +472,7 @@
                     4
                 ],
                 "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
-                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "miniature": "./resources/cursos/conceptosfinancierosbasicos150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=21"
             },
             {
@@ -520,7 +520,7 @@
                     4
                 ],
                 "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
-                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "miniature": "./resources/cursos/gestiondecostos-150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=23"
             },
             {
@@ -544,7 +544,7 @@
                     4
                 ],
                 "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
-                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "miniature": "./resources/cursos/matematicasentiendetusfinanzasentrenumeros150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=24"
             },
             {
@@ -568,7 +568,7 @@
                     4
                 ],
                 "image": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas1755x380.png",
-                "miniature": "./resources/cursos/contabilidadbasicaparamicroypequenasempresas150x150.png",
+                "miniature": "./resources/cursos/comoanalizartusestadosfinancieros150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=25"
             },
             {
@@ -688,7 +688,7 @@
                     4
                 ],
                 "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
-                "miniature": "./resources/cursos/prevencióndedesastresycontinuidaddenegocios150x150.png",
+                "miniature": "./resources/cursos/importanciadelfinanciamiento150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=30"
             },
             {
@@ -712,7 +712,7 @@
                     4
                 ],
                 "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
-                "miniature": "./resources/cursos/prevencióndedesastresycontinuidaddenegocios150x150.png",
+                "miniature": "./resources/cursos/tiposdefinanciamiento150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=31"
             },
             {
@@ -736,7 +736,7 @@
                     4
                 ],
                 "image": "./resources/cursos/prevenciondedesastresycontinuidaddenegocios1755x380.png",
-                "miniature": "./resources/cursos/prevencióndedesastresycontinuidaddenegocios150x150.png",
+                "miniature": "./resources/cursos/aspectoslegalesenelcredito150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=32"
             },
             {
@@ -832,7 +832,7 @@
                     4
                 ],
                 "image": "./resources/cursos/mujerempresaria1755x380.png",
-                "miniature": "./resources/cursos/mujerempresaria150x150.png",
+                "miniature": "./resources/cursos/lasmujeresysupapelenelcomercioexterior150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=36"
             },
             {
@@ -904,7 +904,7 @@
                     4
                 ],
                 "image": "./resources/cursos/aprendeaendeudarte1755x380.png",
-                "miniature": "./resources/cursos/aprendeaendeudarte150x150.png",
+                "miniature": "./resources/cursos/mediosdepagointernacional150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=41"
             },
             
@@ -930,7 +930,7 @@
                     4
                 ],
                 "image": "./resources/cursos/registratumarcayvalorizatuempresa1755x380.png",
-                "miniature": "./resources/cursos/registratumarcayvalorizatuempresa150x150.png",
+                "miniature": "./resources/cursos/segurodecreditoalaexportacion150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=44"
             }
             
