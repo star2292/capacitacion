@@ -16,7 +16,7 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
             {"content":"Webinars","link":"./content/Calendario-Inclusion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
@@ -50,7 +50,7 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
             {"content":"Webinars","link":"./content/Calendario-Promocion.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
 
@@ -108,7 +108,7 @@
         "titulo":"Cursos Presenciales, conferencias en vivo y webinar",
         "tipo":"CP",
         "cardList":[
-            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Duración de hasta 4 horas por sesión, Interacción con consultores, Grupos de 20 y hasta 40 personas", "tipon":"1","linkimagen":"./resources/presencial.png"},
+            {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
             {"content":"Webinars","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Duración de 2 horas por sesión, Interacción con consultores vía chat, Grupos de 20 y hasta 1000 personas","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
