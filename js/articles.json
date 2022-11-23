@@ -17,7 +17,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
-            {"content":"Webinars","link":"./content/Calendario-Inclusion.pdf","duracion":"Seminarios web que rompen barreras fisicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
+            {"content":"Webinars","link":"./content/Calendario-Inclusion.pdf","duracion":"Seminarios web que rompen barreras físicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
             "categoria":["CEF"]
@@ -51,7 +51,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
-            {"content":"Webinars","link":"./content/Calendario-Promocion.pdf","duracion":"Seminarios web que rompen barreras fisicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
+            {"content":"Webinars","link":"./content/Calendario-Promocion.pdf","duracion":"Seminarios web que rompen barreras físicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
 
         
@@ -109,7 +109,7 @@
         "tipo":"CP",
         "cardList":[
             {"content":"Presencial","link":"./content/01Cetesdirecto.pdf","duracion":"Desarrolla tu fortaleza empresarial con nuestros expertos.", "tipon":"1","linkimagen":"./resources/presencial.png"},
-            {"content":"Webinars","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Seminarios web que rompen barreras fisicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
+            {"content":"Webinars","link":"./content/Calendario-Fortalecimiento.pdf","duracion":"Seminarios web que rompen barreras físicas, conexion e interacción inmediata","tipon":"2","linkimagen":"./resources/webinars.png"}
         ],
         "tags":{
                 "categoria":["CFE"]
