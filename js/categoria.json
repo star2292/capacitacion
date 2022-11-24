@@ -135,31 +135,7 @@
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=6",
                 "videolink":"./resources/videos/plan_idea_negocio.mp4"
             },
-            {
-                "id": "7",
-                "nombre": "Técnicas de investigación de mercados",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda información valiosa para que el emprendedor conozca los <br>conceptos y principios básicos de la <br>investigación de mercados así como<br>la practica de técnicas sencillas y de<br>fácil aplicación para determinar su mercado objetivo.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Formalizando mi idea de negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/tecnicasdeinvestigaciondemercados1755x380.png",
-                "miniature": "./resources/cursos/tecnicasdeinvestigaciondemercados150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=7",
-                "videolink":""
-            },
+            
             {
                 "id": "8",
                 "nombre": "Determina bien tus costos",
@@ -493,31 +469,7 @@
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=20",
                 "videolink":"./resources/videos/el-recurso-humano-es-la-pyme.mp4"
             },
-            {
-                "id": "21",
-                "nombre": "Conceptos financieros básicos",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
-                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
-                "programa": "Administrando los recursos en mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/conceptosfinancierosbasicos1755x380.png",
-                "miniature": "./resources/cursos/conceptosfinancierosbasicos150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=21",
-                "videolink":""
-            },
+          
             {
                 "id": "22",
                 "nombre": "Contabilidad básica para micro y pequeñas empresas",
@@ -543,81 +495,8 @@
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=22",
                 "videolink":"./resources/videos/contabilidad-basica-para-micro.mp4"
             },
-            {
-                "id": "23",
-                "nombre": "Gestion de costos",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
-                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
-                "programa": "Administrando los recursos en mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/gestiondecostos-1755x380.png",
-                "miniature": "./resources/cursos/gestiondecostos-150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=23",
-                "videolink":""
-            },
-            {
-                "id": "24",
-                "nombre": "Matemáticas: Entiende tus finanzas entre números",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
-                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
-                "programa": "Administrando los recursos en mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/matematicasentiendetusfinanzasentrenumeros1755x380.png",
-                "miniature": "./resources/cursos/matematicasentiendetusfinanzasentrenumeros150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=24",
-                "videolink":""
-            },
-            {
-                "id": "25",
-                "nombre": "Cómo analizar tus estados financieros",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Guía a los empresarios a identificar los elementos básicos de contabilidad para llevar su negocio.",
-                "temario": "Módulo I. Importancia de la contabilidad <br>Módulo II. Registros y cuentas <br>Módulo III. Estados financieros y obligaciones fiscales",
-                "programa": "Administrando los recursos en mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/comoanalizartusestadosfinancieros1755x380.png",
-                "miniature": "./resources/cursos/comoanalizartusestadosfinancieros150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=25",
-                "videolink":""
-            },
+            
+           
             {
                 "id": "26",
                 "nombre": "Cómo tratar exitosamente los problemas legales de tu empresa",
@@ -718,81 +597,7 @@
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=29",
                 "videolink":"./resources/videos/prevencion_de_desastreso.mp4"
             },
-            {
-                "id": "30",
-                "nombre": "Importancia del financiamiento",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda al empresario información relevante sobre la importancia de un Plan de Continuidad de Negocios para las MIPYMES, ante un desastre natural, para la reactivación económica.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Accediendo a fuentes de financiamiento para consolidar mi negio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/importanciadelfinanciamiento1755x380.png",
-                "miniature": "./resources/cursos/importanciadelfinanciamiento150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=30",
-                "videolink":""
-            },
-            {
-                "id": "31",
-                "nombre": "Tipos de  financiamiento",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda al empresario información relevante sobre la importancia de un Plan de Continuidad de Negocios para las MIPYMES, ante un desastre natural, para la reactivación económica.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Accediendo a fuentes de financiamiento para consolidar mi negio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/tiposdefinanciamiento1755x380.png",
-                "miniature": "./resources/cursos/tiposdefinanciamiento150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=31",
-                "videolink":""
-            },
-            {
-                "id": "32",
-                "nombre": "Aspectos legales en el crédito",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda al empresario información relevante sobre la importancia de un Plan de Continuidad de Negocios para las MIPYMES, ante un desastre natural, para la reactivación económica.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Accediendo a fuentes de financiamiento para consolidar mi negio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/aspectoslegalesenelcredito1755x380.png",
-                "miniature": "./resources/cursos/aspectoslegalesenelcredito150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=32",
-                "videolink":""
-            },
+           
             {
                 "id": "33",
                 "nombre": "Cómo obtener un crédito en un banco",
@@ -868,31 +673,7 @@
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=35",
                 "videolink":"./resources/videos/cadenas_productivas.mp4"
             },
-            {
-                "id": "36",
-                "nombre": "Las mujeres y su papel en el comercio exterior",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda información valiosa para que la empresaria impulse sus habilidades y conocimientos para generar mayores ingresos y productividad en su negocio.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Institucionalizando mi negocio",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/lasmujeresysupapelenelcomercioexterior-1755x380.png",
-                "miniature": "./resources/cursos/lasmujeresysupapelenelcomercioexterior150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=36",
-                "videolink":""
-            },
+           
             {
                 "id": "37",
                 "nombre": "Cómo hacer de mi empresa familiar una empresa institucional",
@@ -942,57 +723,8 @@
                 "miniature": "./resources/cursos/construyendoempresassocialmenteresponsables150x150.png",
                 "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=39",
                 "videolink":"./resources/videos/construyendo-empresas-socialmente-responsables.mp4"
-            },
-            {
-                "id": "41",
-                "nombre": "Medios de pago internacional",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "En línea",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Brinda información al público en general sobre los puntos a considerar para solicitar un crédito y determinar si es conveniente adquirirlo o no.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Accediendo a mecanismos financieros para exportar",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/mediosdepagointernacional1755x380.png",
-                "miniature": "./resources/cursos/mediosdepagointernacional150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=41",
-                "videolink":""
-            },
-            {
-                "id": "44",
-                "nombre": "Seguro de crédito a la exportación",
-                "instructor": "Rosa María Arduino",
-                "categoria": "Social",
-                "area": "Educación Financiera",
-                "duracion": "2 semanas",
-                "ubicacion": "2 semanas",
-                "requisitos": "Es recomendable haber tomado el curso de fundamentos",
-                "audencia": "Personas Fisicas interesadas en crear su primer negocio",
-                "vision": "Identificar los principales tipos de créditos comerciales que otorgan las instituciones financieras.",
-                "temario": "1. ¿Qué es un crédito? <br> 2. Tipos de crédito <br>3. Uso de crédito",
-                "programa": "Accediendo a mecanismos financieros para exportar",
-                "instructorDetalle": "Licenciada en Administración de Empresas, Maestría en Administración por el Instituto Tecnológico de Sonora (ITSON), Maestría en Finanzas por el Instituto Tecnológico Autónomo de México (ITAM).​  Consultora con más de 25 años de experiencia en el desarrollo de Mipymes.​ Directora y Fundadora de EIDE Consultores, despacho de Capacitación, Consultoría, gestión de Financiamiento y Certificación de Empresas.​ Directora de Emprende Idea Incubadora, con más de 2,300 empresas atendidas Federales, Estatales y Municipales.​",
-                "registro": "1. Selecciona el curso <br>  2. Segundo paso <br> 3. Tercer paso",
-                "relacionados": [
-                    1,
-                    3,
-                    4
-                ],
-                "image": "./resources/cursos/segurodecreditoalaexportacion1755x380.png",
-                "miniature": "./resources/cursos/segurodecreditoalaexportacion150x150.png",
-                "moodlelink": "https://capacita-nafin.eastus.cloudapp.azure.com/course/view.php?id=44",
-                "videolink":""
             }
+           
             
             
             

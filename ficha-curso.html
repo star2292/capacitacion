@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/courses.css" />
+    <link rel="stylesheet" href="./css/nafin.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LFCBNTZGM"></script>
     <script>
@@ -154,10 +155,10 @@
     <template class="d-none" id="course-detail-template">
     {{#.}}
     <div class="col-12 course-overflow" style="background-image: url({{image}});     background-size: cover;">
-        <div id="ficha-curso">
+        <div id="ficha-curso" class="oswald">
             <div class="row mb-4 mt-5 pt-2">
                 <div class="col-12">
-                    <h2>{{nombre}}</h2>
+                    <h2 style="font-size: 46px;">{{nombre}}</h2>
                 </div>
             </div>
             <div class="row" id="course-detail">
@@ -175,8 +176,8 @@
                     <p class="font-weight-bold">{{area}}</p>
                 </div> -->
                 <div class="col-sm-6 col-md-12">
-                    <p class="font-weight-light" style="font-size:1.2em;">Segmento</p>
-                    <p class="font-weight-bold" style="font-size:1.5em;">{{programa}}</p>
+                    <p class="font-weight-light" style="font-size:25px;">Segmento</p>
+                    <p class="font-weight-bold" style="font-size:30px;">{{programa}}</p>
                 </div>
             </div>
 
