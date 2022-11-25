@@ -67,13 +67,13 @@
                 <div class="col-md-8 col-sm-12" >
           
                     <ul id="tabs" class="nav nav-tabs mt-5">
-                            <li class="nav-item"><a href="" data-target="#vision" data-toggle="tab" class="nav-link small text-uppercase">VISIÓN GENERAL</a></li>
-                            <li class="nav-item"><a href="" data-target="#temario" data-toggle="tab" class="nav-link small text-uppercase">TEMARIO</a></li>
+                            <li class="nav-item"><a href="" onclick="videop();" data-target="#vision" data-toggle="tab" class="nav-link small text-uppercase">VISIÓN GENERAL</a></li>
+                            <li class="nav-item"><a href="" onclick="videop();"data-target="#temario" data-toggle="tab" class="nav-link small text-uppercase">TEMARIO</a></li>
                             <!-- <li class="nav-item"><a href="" data-target="#instructor" data-toggle="tab" class="nav-link small text-uppercase">INSTRUCTOR</a></li> -->
-                            <li class="nav-item"><a href="" data-target="#requisitos" data-toggle="tab" class="nav-link small text-uppercase">REQUISITOS</a></li>
-                            <li class="nav-item"><a href="" data-target="#ubicacion" data-toggle="tab" class="nav-link small text-uppercase">MODALIDAD</a></li>
-                            <li class="nav-item"><a href="" data-target="#duracion" data-toggle="tab" class="nav-link small text-uppercase">DURACIÓN</a></li>
-							<li class="nav-item"><a href="" data-target="#video" data-toggle="tab" class="nav-link small text-uppercase active">VIDEO INTRODUCTORIO</a></li>
+                            <li class="nav-item"><a href="" onclick="videop();"data-target="#requisitos" data-toggle="tab" class="nav-link small text-uppercase">REQUISITOS</a></li>
+                            <li class="nav-item"><a href="" onclick="videop();"data-target="#ubicacion" data-toggle="tab" class="nav-link small text-uppercase">MODALIDAD</a></li>
+                            <li class="nav-item"><a href="" onclick="videop();"data-target="#duracion" data-toggle="tab" class="nav-link small text-uppercase">DURACIÓN</a></li>
+							<li class="nav-item"><a href="" onclick="videopy();"data-target="#video" data-toggle="tab" class="nav-link small text-uppercase active">VIDEO INTRODUCTORIO</a></li>
                         
                     </ul>
                     <br>
@@ -218,7 +218,7 @@
         <div id="ubicacion" class="tab-pane fade">{{{ubicacion}}}</div>
         <div id="duracion" class="tab-pane fade">{{duracion}}</div>
 		<div id="video" class="tab-pane fade active show">
-			<video src="{{videolink}}" autoplay controls poster="" width="90%">
+			<video id="Intro" src="{{videolink}}" autoplay controls poster="" width="90%">
 				Tu navegador no tiene soporte para reproducir<code>videos</code>.
 			</video>
 		</div>
@@ -284,6 +284,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       
     <script type="text/javascript">
+        function videop(){
+            var vid = document.getElementById("Intro");
+            vid.pause(); 
+        }
+        function videopy(){
+            var vid = document.getElementById("Intro");
+            vid.play(); 
+        }
         $(document).ready(function () {
             AOS.init({
                 // Global settings:
@@ -366,6 +374,7 @@
             var asideText = Mustache.render(asideTemplate,courseData.cursos);
             $("#faqaside") .html(asideText);
         }
+        
     </script>
 </body>
 </html>
