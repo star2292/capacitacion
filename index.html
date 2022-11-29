@@ -818,7 +818,7 @@ desarrollo de México.</div>
             <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header container-contact100" style="background-color: #d4c19c;padding-bottom: 0px;">
-                            <div class="wrap-contact100" style="">
+                            <div class="wrap-contact100" >
                                
                                     <h5 class="modal-title oswald font-weight-bold text-center  align-self-center">Acércate a nosotros</h5>
                        
@@ -933,32 +933,44 @@ desarrollo de México.</div>
     <script type="text/javascript" src="./js/counter.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+//             document.querySelectorAll(".click").forEach(el => {
+//   el.addEventListener("click", e => {
+//     var vid = document.getElementById("linkMVideo");
+//             vid.pause(); 
+//   });
+// });
+            $(document).on('click', '#videoModal', function() {
+				var vid = document.getElementById("linkMVideo");
+             vid.pause();
+				
+            });
+           
 			
 			//modificaciones
 			
 			$(document).on('click', '#videoBCredito', function() {
 				$('#titleModal').text("Buró de credito");
 				$('#linkMVideo').attr("src", "./resources/videos/buro_credito.mp4");
-				$('#linkMVideo').paused();
+				//$('#linkMVideo').paused();
 				
             });
 			
 			$(document).on('click', '#videoEMujeres', function() {
 				$('#titleModal').text("Mujeres emprendedoras");
 				$('#linkMVideo').attr("src", "./resources/videos/mujeres_emprendedoras.mp4");
-				$('#linkMVideo').paused();
+				//('#linkMVideo').paused();
             });
 			
 			$(document).on('click', '#videoPNegocios', function() {
 				$('#titleModal').text("13 pasos para elaborar tu plan de negocios");
 				$('#linkMVideo').attr("src", "./resources/videos/plan_idea_negocio.mp4");
-				$('#linkMVideo').paused();
+				//$('#linkMVideo').paused();
             });
 			
 			$(document).on('click', '#videoMicrocredito', function() {
 				$('#titleModal').text("Cómo obtener un microcredito");
 				$('#linkMVideo').attr("src", "./resources/videos/como-obtener-un-microcredito.mp4");
-				$('#linkMVideo').paused();
+				//$('#linkMVideo').paused();
             });
 			//codigo original
 
@@ -1068,7 +1080,7 @@ desarrollo de México.</div>
             $(document).on('click', '#btn-suscribete', function(e) {
                 e.preventDefault();
 
-                var urlparam = "http://54.175.184.59:8081/nafin/v1/subscription";
+                var urlparam = "http://localhost:8081/nafin/v1/subscription";
                 
                 //agregar las validaciones
                 var subscriptionJson = { "nombreComp": $('#name').val(),
@@ -1116,6 +1128,7 @@ desarrollo de México.</div>
 
             });
         }
+        
 
     </script>
 </body>
