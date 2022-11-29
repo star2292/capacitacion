@@ -1136,9 +1136,9 @@ desarrollo de México.</div>
 			 $(document).on('click', '#btn-suscribete', function(e) {
                 e.preventDefault();
 
-                let urlparam = "./csv/script_suscripcion.php";
+                var urlparam = "./csv/script_suscripcion.php";
                 
-				let data1 = $('#inp-suscribete').val();
+				var data1 = $('#inp-suscribete').val();
 				
                     $.ajax({       
                         url: urlparam,
