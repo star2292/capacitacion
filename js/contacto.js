@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(document).on('click', '#main-form-b', function(e) {
         e.preventDefault();
 
-        var urlparam = "http://capacita-nafin.eastus.cloudapp.azure.com:8081/nafin/v1/contacto";
+        var urlparam = "http://10.0.2.4:8081/nafin/v1/contacto";
         
         //agregar las validaciones
         var contactJson = { "nombreComp": $('#name').val(),
