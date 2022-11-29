@@ -981,37 +981,6 @@ desarrollo de México.</div>
 			
 			//modificaciones
 			
-			$(document).on('click', '#btn-suscribete', function() {
-				validarFormulario();
-            });
-			
-			let validarFormulario = function() {
-				
-				let correo = $('#inp-suscribete').val();
-				let expresion = /^[A-Za-z0-9][A-Za-z0-9_.-]+[A-za-z]*@[A-Za-z0-9_-]+\.[A-Za-z0-9_.-]+[A-za-z]$/;
-				
-				if (!expresion.test(correo)){
-					alert("Error en el formato del correo, ingrese un correo valido.");
-				}else{
-
-					let urlparam = "script_suscripcion.php";
-					
-					let data1 = $('#inp-suscribete').val();
-					
-						$.ajax({       
-							url: urlparam,
-							type: 'post',
-							data: {"correo":data1},
-							success: function( data, textStatus, jQxhr ){
-								alert(data);
-							},
-							error: function( jqXhr, textStatus, errorThrown ){
-								alert("Error al conectarse con el servidor");
-							}
-						});
-				}
-			}
-			
 			$(document).on('click', '#videoBCredito', function() {
 				$('#titleModal').text("Buró de credito");
 				$('#linkMVideo').attr("src", "./resources/videos/buro_credito.mp4");
@@ -1164,6 +1133,29 @@ desarrollo de México.</div>
                     });
              });*/
 			 
+			 $(document).on('click', '#btn-suscribete', function(e) {
+                e.preventDefault();
+
+                var urlparam = "script_suscripcion.php";
+                
+				var data1 = $('#inp-suscribete').val();
+				
+                    $.ajax({       
+                        url: urlparam,
+                        type: 'post',
+                        data: {"correo":data1},
+                        success: function( data, textStatus, jQxhr ){
+                            alert(data);
+							$('#inp-suscribete').val('');
+                        },
+                        error: function( jqXhr, textStatus, errorThrown ){
+                            alert("Error al conectarse con el servidor");
+                        }
+                    });
+             });
+
+            
+
 
             inicializaMenu();
 
