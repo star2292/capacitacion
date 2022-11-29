@@ -708,14 +708,12 @@ desarrollo de México.</div>
                     mucho más!
                 </div>
                 <div class="col-12 col-md-7">
-					<form action="pagina.php" method="post">
-						<div class="input-group input-group-lg mb-3 justify-content-center">
-							<input id="inp-suscribete" type="email" class="inp-suscribete" placeholder="Tu correo aquí">
-							<div class="input-group-append">
-								<button id="btn-suscribete" class="btn-suscribete" type="button">Suscríbete</button>
-							</div>
+					<div class="input-group input-group-lg mb-3 justify-content-center">
+						<input id="inp-suscribete" name="correo" type="email" minlength="15" maxlength="35" class="inp-suscribete" placeholder="Tu correo aquí" required>
+						<div class="input-group-append">
+							<button id="btn-suscribete" class="btn-suscribete" type="submit">Suscríbete</button>
 						</div>
-					</form>
+					</div>
                 </div>
             </div>
 
@@ -982,21 +980,6 @@ desarrollo de México.</div>
            
 			
 			//modificaciones
-			$(document).on('click', '#btn-suscribete', function() {
-				validarFormulario();
-            });
-			
-			let validarFormulario = function() {
-				
-				let correo = $('#inp-suscribete').val();
-				let expresion = /^[A-Za-z0-9][A-Za-z0-9_.-]+[A-za-z]*@[A-Za-z0-9_-]+\.[A-Za-z0-9_.-]+[A-za-z]$/;
-				
-				if (!expresion.test(correo)){
-					alert("Suscripción fallida, ingrese un correo valido.");
-				}else{
-					alert("Suscripción correcta, en breve nos ponemos en contacto con usted.");
-				}
-			}
 			
 			$(document).on('click', '#videoBCredito', function() {
 				$('#titleModal').text("Buró de credito");
@@ -1149,6 +1132,30 @@ desarrollo de México.</div>
                         }
                     });
              });*/
+			 
+			 $(document).on('click', '#btn-suscribete', function(e) {
+                e.preventDefault();
+
+                var urlparam = "./csv/script_suscripcion.php";
+                
+				var data1 = $('#inp-suscribete').val();
+				
+                    $.ajax({       
+                        url: urlparam,
+                        type: 'post',
+                        data: {"correo":data1},
+                        success: function( data, textStatus, jQxhr ){
+                            alert(data);
+							$('#inp-suscribete').val('');
+                        },
+                        error: function( jqXhr, textStatus, errorThrown ){
+                            alert("Error al conectarse con el servidor");
+                        }
+                    });
+             });
+
+            
+
 
             inicializaMenu();
 
