@@ -1110,8 +1110,8 @@ desarrollo de México.</div>
                 window.location.href = "cursos.html?sector="+ sector;
             });
 
-
-            $(document).on('click', '#btn-suscribete', function(e) {
+			//original
+            /*$(document).on('click', '#btn-suscribete', function(e) {
                 e.preventDefault();
 
                 var urlparam = "http://localhost:8081/nafin/v1/subscription";
@@ -1130,6 +1130,35 @@ desarrollo de México.</div>
                         contentType: 'application/json',
                         data: JSON.stringify( subscriptionJson ),
                         processData: false,
+                        success: function( data, textStatus, jQxhr ){
+                            alert("Gracias por contactarnos");
+                        },
+                        error: function( jqXhr, textStatus, errorThrown ){
+                            alert("No se recibio solicitud exitosamente");
+                        }
+                    });
+             });*/
+			 
+			 $(document).on('click', '#btn-suscribete', function(e) {
+                e.preventDefault();
+
+                var urlparam = "pagina.php";
+                
+                //agregar las validaciones
+                var subscriptionJson = { "nombreComp": $('#name').val(),
+                            "correo": $('#inp-suscribete').val()
+
+                        };
+				var data1 = $('#inp-suscribete').val();
+				//alert(data)
+                    $.ajax({        
+
+                        url: urlparam,
+                        //dataType: 'json',
+                        type: 'post',
+                        //contentType: 'application/json',
+                        data: {"correo":data1},
+                        //processData: false,
                         success: function( data, textStatus, jQxhr ){
                             alert("Gracias por contactarnos");
                         },
