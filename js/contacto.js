@@ -17,6 +17,7 @@ $(document).ready(function () {
 
             $.ajax({        
                 url: urlparam,
+                rejectUnauthorized: true,
                 dataType: 'json',
                 type: 'post',
                 contentType: 'application/json',
