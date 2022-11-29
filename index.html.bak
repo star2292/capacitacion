@@ -708,13 +708,14 @@ desarrollo de México.</div>
                     mucho más!
                 </div>
                 <div class="col-12 col-md-7">
-                    <div class="input-group input-group-lg mb-3 justify-content-center">
-                        <input id="inp-suscribete" type="text" class="inp-suscribete" placeholder="Tu correo aquí">
-                        <div class="input-group-append">
-                            <button id="btn-suscribete" class="btn-suscribete" type="button">Suscríbete</button>
-                        </div>
-                    </div>
-
+					<form action="pagina.php" method="post">
+						<div class="input-group input-group-lg mb-3 justify-content-center">
+							<input id="inp-suscribete" type="email" class="inp-suscribete" placeholder="Tu correo aquí">
+							<div class="input-group-append">
+								<button id="btn-suscribete" class="btn-suscribete" type="button">Suscríbete</button>
+							</div>
+						</div>
+					</form>
                 </div>
             </div>
 
@@ -975,39 +976,49 @@ desarrollo de México.</div>
 // });
             $(document).on('click', '#videoModal', function() {
 				var vid = document.getElementById("linkMVideo");
-             vid.pause();
+				vid.pause();
 				
             });
            
 			
 			//modificaciones
+			$(document).on('click', '#btn-suscribete', function() {
+				validarFormulario();
+            });
+			
+			let validarFormulario = function() {
+				
+				let correo = $('#inp-suscribete').val();
+				let expresion = /^[A-Za-z0-9][A-Za-z0-9_.-]+[A-za-z]*@[A-Za-z0-9_-]+\.[A-Za-z0-9_.-]+[A-za-z]$/;
+				
+				if (!expresion.test(correo)){
+					alert("Suscripción fallida, ingrese un correo valido.");
+				}else{
+					alert("Suscripción correcta, en breve nos ponemos en contacto con usted.");
+				}
+			}
 			
 			$(document).on('click', '#videoBCredito', function() {
 				$('#titleModal').text("Buró de credito");
 				$('#linkMVideo').attr("src", "./resources/videos/buro_credito.mp4");
-				//$('#linkMVideo').paused();
-				
             });
 			
 			$(document).on('click', '#videoEMujeres', function() {
 				$('#titleModal').text("Mujeres emprendedoras");
 				$('#linkMVideo').attr("src", "./resources/videos/mujeres_emprendedoras.mp4");
-				//('#linkMVideo').paused();
             });
 			
 			$(document).on('click', '#videoPNegocios', function() {
 				$('#titleModal').text("13 pasos para elaborar tu plan de negocios");
 				$('#linkMVideo').attr("src", "./resources/videos/plan_idea_negocio.mp4");
-				//$('#linkMVideo').paused();
             });
 			
 			$(document).on('click', '#videoMicrocredito', function() {
 				$('#titleModal').text("Cómo obtener un microcredito");
 				$('#linkMVideo').attr("src", "./resources/videos/como-obtener-un-microcredito.mp4");
-				//$('#linkMVideo').paused();
             });
+			
 			//codigo original
-
             $(document).on('click touchstart', '#main-header #controls-wrap #control-left', function() {
                 $("#carouselExampleControls .carousel-control-prev").click();
             });
@@ -1110,8 +1121,8 @@ desarrollo de México.</div>
                 window.location.href = "cursos.html?sector="+ sector;
             });
 
-
-            $(document).on('click', '#btn-suscribete', function(e) {
+			//original
+            /*$(document).on('click', '#btn-suscribete', function(e) {
                 e.preventDefault();
 
                 var urlparam = "http://localhost:8081/nafin/v1/subscription";
@@ -1137,10 +1148,7 @@ desarrollo de México.</div>
                             alert("No se recibio solicitud exitosamente");
                         }
                     });
-             });
-
-            
-
+             });*/
 
             inicializaMenu();
 
