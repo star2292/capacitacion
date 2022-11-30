@@ -19,6 +19,7 @@
 		
 			}
 			
+			#file_put_contents('contacto.json', json_encode(array(date("m.d.y"), date("H:i:s"), $correo), JSON_FORCE_OBJECT, JSON_UNESCAPED_UNICODE) . ",", FILE_APPEND);
 		} else {
 			$fp = fopen('./contacto.csv', 'w');
 			fwrite($fp, "fecha:" . date("y:m:d") . ", hora:" . date("H:i:s") . ", correo:" . $correo . ", nombre:" . $name . ", telefono:" . $phone . ", mensaje:" . $mensaje . ",");
