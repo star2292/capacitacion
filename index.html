@@ -709,7 +709,7 @@ desarrollo de México.</div>
                 </div>
                 <div class="col-12 col-md-7">
 					<div class="input-group input-group-lg mb-3 justify-content-center">
-						<input id="inp-suscribete" name="correo" type="email" maxlength="35" class="inp-suscribete" placeholder="Tu correo aquí" required>
+						<!-- <input id="inp-suscribete" name="correo" type="email" maxlength="35" class="inp-suscribete" placeholder="Tu correo aquí" required> -->
 						<div class="input-group-append">
 							<button id="btn-suscribete" class="btn-suscribete" type="submit">Suscríbete</button>
 						</div>
@@ -1134,24 +1134,26 @@ desarrollo de México.</div>
              });*/
 			 
 			 $(document).on('click', '#btn-suscribete', function(e) {
-                e.preventDefault();
+                // e.preventDefault();
 
-                var urlparam = "script_suscripcion.php";
+                // var urlparam = "script_suscripcion.php";
                 
-				var data1 = $('#inp-suscribete').val();
+				// var data1 = $('#inp-suscribete').val();
 				
-                    $.ajax({       
-                        url: urlparam,
-                        type: 'post',
-                        data: {"correo":data1},
-                        success: function( data, textStatus, jQxhr ){
-                            alert(data);
-							$('#inp-suscribete').val('');
-                        },
-                        error: function( jqXhr, textStatus, errorThrown ){
-                            alert("Error al conectarse con el servidor");
-                        }
-                    });
+                //     $.ajax({       
+                //         url: urlparam,
+                //         type: 'post',
+                //         data: {"correo":data1},
+                //         success: function( data, textStatus, jQxhr ){
+                //             alert(data);
+				// 			$('#inp-suscribete').val('');
+                //         },
+                //         error: function( jqXhr, textStatus, errorThrown ){
+                //             alert("Error al conectarse con el servidor");
+                //         }
+                //     });
+
+                window.location.href = "./contacto.html"; 
              });
 
             
