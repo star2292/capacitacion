@@ -217,6 +217,8 @@ h2 {
     font-weight: bold;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     border: 0;
     font-size: 20px;
     padding: 0 1em;
