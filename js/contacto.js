@@ -3,26 +3,19 @@ $(document).ready(function () {
     $(document).on('click', '#main-form-b', function(e) {
         e.preventDefault();
 
-        var urlparam = "https://capacita-nafin.eastus.cloudapp.azure.com:8081/nafin/v1/contacto";
+        var urlparam = "script_contacto.php";
         
         //agregar las validaciones
-        var contactJson = { "nombreComp": $('#name').val(),
+        var contactJson = { "name": $('#name').val(),
                     "correo": $('#correo').val(),
-                    "numero" : $('#phone').val(),
-                    "mensaje" : $('#comentario').val(),
-                    "ip" : "168.182.1.0",
-                    "date" : new Date()
-
+                    "phone" : $('#phone').val(),
+                    "mensaje" : $('#comentario').val()
                    };
 
             $.ajax({        
                 url: urlparam,
-                rejectUnauthorized: true,
-                dataType: 'json',
                 type: 'post',
-                contentType: 'application/json',
-                data: JSON.stringify( contactJson ),
-                processData: false,
+                data: contactJson,
                 success: function( data, textStatus, jQxhr ){
                     $('#name').val("");
                     $('#correo').val("");
