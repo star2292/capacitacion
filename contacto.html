@@ -267,7 +267,7 @@
      {{#.}}
         <form >
             <div class="wrap-input100">
-                <input type="text" id="name" class="form-control input100" type="text" name="name" placeholder="Nombre Completo"/>
+                <input type="text" id="name" class="form-control input100" type="text" maxlength="35" name="name" placeholder="Nombre Completo" required>
             
                 <span class="focus-input100"></span>
                 <label class="label-input100" for="phone">
@@ -283,7 +283,7 @@
                 {{/createContactValidation-contact-nombreComp}}
             </div>
             <div class="wrap-input100" >
-                 <input type="text" id="correo" style="color: black;" class="form-control input100" type="text" name="correo" placeholder="Eg. ejemplo@email.com"/>
+                 <input type="text" id="correo" style="color: black;" class="form-control input100" type="email" maxlength="35" name="correo" placeholder="Eg. ejemplo@email.com" required>
                 <span class="focus-input100"></span>
                 <label class="label-input100" for="correo">
                     
@@ -298,7 +298,7 @@
                 {{/createContactValidation-contact-correo}}
             </div>
             <div class="wrap-input100">
-                <input type="text" id="phone"  class="form-control input100" type="text" name="phone" placeholder="Eg. 55 1234 5678"/>
+                <input type="text" id="phone"  class="form-control input100" type="text" maxlength="12" name="phone" placeholder="Eg. 55 1234 5678" required>
                 <span class="focus-input100"></span>
                 <label class="label-input100" for="phone">
                     
@@ -314,7 +314,7 @@
             </div>
 
             <div class="wrap-input100">
-                <textarea class="form-control" id="comentario" rows="3" name = "comentario" placeholder="Mensaje" ></textarea>
+                <textarea class="form-control" id="comentario" rows="3" maxlength="320" name = "comentario" placeholder="Mensaje" required></textarea>
                 <span class="focus-input100"></span>
                     
             </div>
