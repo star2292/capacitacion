@@ -21,7 +21,7 @@ $(document).ready(function () {
                     $('#correo').val("");
                     $('#phone').val("");
                     $('#comentario').val("");
-                    alert(data);
+                    alert("Gracias por contactarnos");
                 },
                 error: function( jqXhr, textStatus, errorThrown ){
                     console.log(jqXhr.responseJSON);
