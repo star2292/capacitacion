@@ -33,7 +33,7 @@
             {"content":"Mujeres emprendedoras","link":"ficha-curso.html?course=5&sector=CN"},
             {"content":"13 pasos para elaborar tu plan de negocios","link":"ficha-curso.html?course=6&sector=CN"},
             {"content":"Determina bien tus costos","link":"ficha-curso.html?course=8&sector=CN"},
-            {"content":"Como promocionar eficientemente su producto o servicio","link":"ficha-curso.html?course=9&sector=CN"},
+            {"content":"Cómo promocionar eficientemente su producto o servicio","link":"ficha-curso.html?course=9&sector=CN"},
             {"content":"Servicio al cliente:  Los 10 mandamientos","link":"ficha-curso.html?course=10&sector=CN"},
             {"content":"Régimen Simplificado de Confianza (RESICO)","link":"ficha-curso.html?course=11&sector=CN"},
             {"content":"Forjando Innovadores Protegidos","link":"ficha-curso.html?course=12&sector=CN"},
@@ -74,7 +74,7 @@
             {"content":"El capital humano es la PYME","link":"ficha-curso.html?course=20&sector=CFE"},
             {"content":"Contabilidad básica para micro y pequeñas empresas","link":"ficha-curso.html?course=22&sector=CFE"},
             {"content":"Cómo tratar exitosamente los problemas legales en tu empresa","link":"ficha-curso.html?course=26&sector=CFE"},
-            {"content":"Mi negocia tiene marca registrada","link":"ficha-curso.html?course=27&sector=CFE"},
+            {"content":"Mi negocio tiene marca registrada","link":"ficha-curso.html?course=27&sector=CFE"},
             {"content":"Calidad en las Mipymes","link":"ficha-curso.html?course=28&sector=CFE"},
             {"content":"Prevención de desastres y continuidad de negocios","link":"ficha-curso.html?course=29&sector=CFE"},
             {"content":"Cómo obtener crédito en un banco","link":"ficha-curso.html?course=33&sector=CFE"},
@@ -153,18 +153,18 @@
         },
         {
             "categoria":"CN",
-            "nombre":"Creacion de nuevas empresas",
+            "nombre":"Creacipón de nuevas empresas",
             "segmento":"Empresarial",
-            "dirijido":"Emprendedores y microempresas",
-            "descripcion":"En esta sección aprenderás desde como generar tu idea de negocio hasta como hacer realidad tu emprendimiento.",
+            "dirijido":"Emprendedores y microempresas.",
+            "descripcion":"En esta sección aprenderás desde generar tu idea de negocio hasta hacer realidad tu emprendimiento.",
             "img": "./resources/creaciondenegocios"
         },
         {
             "categoria":"CFE",
             "nombre":"Fortalecer o consolidar empresas",
             "segmento":"Empresarial",
-            "dirijido":"Microempresas y pequeñas empresas",
-            "descripcion":"En esta sección aprenderás las mejores prácticas empresariales para que tu empresa perdure y cuente con un modelo de negocio eficiente y rentable",
+            "dirijido":"Microempresas y pequeñas empresas.",
+            "descripcion":"En esta sección aprenderás las mejores prácticas empresariales para que tu empresa perdure y cuente con un modelo de negocio eficiente y rentable.",
             "img": "./resources/fortalizacionempresarial"
         }
 
