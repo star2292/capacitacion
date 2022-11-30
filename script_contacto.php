@@ -13,7 +13,7 @@
 		if (file_exists("./contacto.csv")) {
 			if(strlen($correo) >= 15 && strlen($correo) <= 35){
 				$fp = fopen('./contacto.csv', 'a');
-				fwrite($fp, "fecha:" . date("y:m:d") . ", hora:" . date("H:i:s") . ", correo:" . $correo . ", nombre:" . $name . ", telefono:" . $phone . ", mensaje:" . $mensaje . ",");
+				fwrite($fp, "fecha:" . date("y:m:d") . ", hora:" . date("H:i:s") . ", correo:" . $correo . ", nombre:" . $name . ", telefono:" . $phone . ", mensaje:" . str_replace(",", " ", $mensaje));
 				fwrite($fp, "\n");
 				fclose($fp);
 		
@@ -21,14 +21,14 @@
 			
 		} else {
 			$fp = fopen('./contacto.csv', 'w');
-			fwrite($fp, "fecha:" . date("y:m:d") . ", hora:" . date("H:i:s") . ", correo:" . $correo . ", nombre:" . $name . ", telefono:" . $phone . ", mensaje:" . $mensaje . ",");
+			fwrite($fp, "fecha:" . date("y:m:d") . ", hora:" . date("H:i:s") . ", correo:" . $correo . ", nombre:" . $name . ", telefono:" . $phone . ", mensaje:" . str_replace(",", " ", $mensaje));
 				fwrite($fp, "\n");
 			fclose($fp);
 		}
 		
-		echo "Suscripción correcta, en breve nos ponemos en contacto con usted.";
+		echo "Hemos recibido sus datos, en breve nos ponemos en contacto con usted.";
 	}else{
-		echo "Suscripción fallida, ingrese un correo valido.";
+		echo "Error, ingrese datos validos.";
 	}
 	
 ?>
