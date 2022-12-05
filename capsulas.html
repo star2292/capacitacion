@@ -42,9 +42,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cursos.html">Explora</a>
                 </li>
-              <!-- <li class="nav-item">
-                    <a class="nav-link" href="eventos.html">Eventos</a>
-                </li> -->
+
                 <li class="nav-item">
                     <a class="nav-link" href="capsulas.html">Cápsulas</a>
                 </li>
@@ -66,7 +64,6 @@
         style="background-image: url(./resources/registrateahora.png); background-size: cover; height: 620px; color: white; margin-top: 70px;">
         <div class="container">
             <div class="title oswald"  data-aos="fade-right">
-                <!-- <div class="title oswald" style="font-weight: bold; font-size: 46px;" data-aos="fade-right"></div> -->
                 <h1 style="font-weight: bold; font-size: 46px;">
                     Cápsulas informativas
                 </h1> 
@@ -77,15 +74,6 @@
                 </div>
                 
             </div>
-            <!-- <div class="gallery" data-aos="fade-up">
-                <div class="gallery-container">
-                  <img class="gallery-item gallery-item-1" src="./resources/blog/300x300capsula1.png" data-index="1">
-                  <img class="gallery-item gallery-item-2" src="./resources/blog/300x300capsula2.png" data-index="2">
-                  <img class="gallery-item gallery-item-3" src="./resources/blog/300x300capsula1.png" data-index="3">
-                  <video class="gallery-item gallery-item-3" src="./resources/videos/capsula1.mp4"  controls poster="" data-index="4"></video>
-                </div>
-                <div class="gallery-controls"></div>
-              </div> -->
         </div>
 
     </div>
@@ -229,23 +217,20 @@
 
 
             $.getJSON('./js/blog.json', function (data) {
-                var template = $('#blog-template').html();
-                var text = Mustache.render(template, data);
+                let template = $('#blog-template').html();
+                let text = Mustache.render(template, data);
                 $("#blog-list-content").html(text);
 
-                var lastPost = data.blogList.slice(-4);
+                let lastPost = data.blogList.slice(-4);
                
 
-                var templateMiniatures = $('#last-blog-template').html();
-                var textMiniatures = Mustache.render(templateMiniatures, lastPost);
+                let templateMiniatures = $('#last-blog-template').html();
+                let textMiniatures = Mustache.render(templateMiniatures, lastPost);
                 //console.log(textMiniatures);
 
                 $("#miniature-list").html(textMiniatures);
 
-
-
             });
-
 
         });
     </script>
