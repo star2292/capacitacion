@@ -39,9 +39,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cursos.html">Explora</a>
                 </li>
-              <!-- <li class="nav-item">
-                    <a class="nav-link" href="eventos.html">Eventos</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="capsulas.html">Capsulas</a>
                 </li>
@@ -263,22 +260,18 @@
             console.log(params.articulo);
 
             $.getJSON('./js/blog.json', function (data) {
-                var template = $('#blog-template').html();
-                var text = Mustache.render(template, data);
+                let template = $('#blog-template').html();
+                let text = Mustache.render(template, data);
                 $("#blog-list-content").html(text);
 
-                var lastPost = data.blogList.slice(-4);
-               
+                let lastPost = data.blogList.slice(-4);
 
-                var templateMiniatures = $('#last-blog-template').html();
-                var textMiniatures = Mustache.render(templateMiniatures, lastPost);
+                let templateMiniatures = $('#last-blog-template').html();
+                let textMiniatures = Mustache.render(templateMiniatures, lastPost);
 
                 $("#miniature-list").html(textMiniatures);
 
-
-
             });
-
 
         });
     </script>
