@@ -69,10 +69,8 @@
                     <ul id="tabs" class="nav nav-tabs mt-5">
                             <li class="nav-item"><a href="" onclick="videop();" data-target="#vision" data-toggle="tab" class="nav-link small text-uppercase">VISIÓN GENERAL</a></li>
                             <li class="nav-item"><a href="" onclick="videop();"data-target="#temario" data-toggle="tab" class="nav-link small text-uppercase">TEMARIO</a></li>
-                            <!-- <li class="nav-item"><a href="" data-target="#instructor" data-toggle="tab" class="nav-link small text-uppercase">INSTRUCTOR</a></li> -->
                             <li class="nav-item"><a href="" onclick="videop();"data-target="#requisitos" data-toggle="tab" class="nav-link small text-uppercase">RECOMENDACIÓN</a></li>
-                            <!-- <li class="nav-item"><a href="" onclick="videop();"data-target="#ubicacion" data-toggle="tab" class="nav-link small text-uppercase">MODALIDAD</a></li>
-                            <li class="nav-item"><a href="" onclick="videop();"data-target="#duracion" data-toggle="tab" class="nav-link small text-uppercase">DURACIÓN</a></li> -->
+                           
 							<li class="nav-item"><a href="" onclick="videopy();"data-target="#video" data-toggle="tab" class="nav-link small text-uppercase active">VIDEO INTRODUCTORIO</a></li>
                         
                     </ul>
@@ -200,19 +198,7 @@
                 </div>
             </div>
             <div class="row" id="course-detail">
-                <!-- <div class="col-sm-5 col-md-3">
-                   
-                    <p class="font-weight-light">Instructor</p>
-                    <p class="font-weight-bold">{{instructor}}</p>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <p class="font-weight-light">Categoria</p>
-                    <p class="font-weight-bold">{{categoria}}</p>
-                </div>
-                <div class="col-sm-5 col-md-2">
-                    <p class="font-weight-light">Area</p>
-                    <p class="font-weight-bold">{{area}}</p>
-                </div> -->
+              
                 <div class="col-sm-6 col-md-12">
                     <p class="font-weight-light" style="font-size:25px;">Categoría</p>
                     <p class="font-weight-bold" style="font-size:30px;">{{programa}}</p>
@@ -247,10 +233,7 @@
     {{#.}}
         <div id="vision" class="tab-pane fade ">{{{vision}}}<br><br> Modalidad:&nbsp;{{{ubicacion}}}<br><br> Duración:&nbsp;{{{duracion}}} </div>
         <div id="temario" class="tab-pane fade">{{{temario}}}</div>
-        <!-- <div id="instructor" class="tab-pane fade">{{{instructorDetalle}}}</div> -->
         <div id="requisitos" class="tab-pane fade">{{{requisitos}}}</div>
-        <!-- <div id="ubicacion" class="tab-pane fade">{{{ubicacion}}}</div>
-        <div id="duracion" class="tab-pane fade">{{duracion}}</div> -->
 		<div id="video" class="tab-pane fade active show">
 			<video id="Intro" src="{{videolink}}" autoplay controls poster="" width="90%">
 				Tu navegador no tiene soporte para reproducir<code> videos</code>.
@@ -319,11 +302,11 @@
       
     <script type="text/javascript">
         function videop(){
-            var vid = document.getElementById("Intro");
+            let vid = document.getElementById("Intro");
             vid.pause(); 
         }
         function videopy(){
-            var vid = document.getElementById("Intro");
+            let vid = document.getElementById("Intro");
             vid.play(); 
         }
         $(document).ready(function () {
@@ -355,11 +338,11 @@
             });
 
             console.log(params.course);
-            var cursoId = params.course;
+            let cursoId = params.course;
             console.log(cursoId);
 
 
-            var sector = params.sector === null || "" ? "CEF" : params.sector;
+            let sector = params.sector === null || "" ? "CEF" : params.sector;
 
              $.getJSON('./js/ficha-curso.json', function (data) {
                 console.log("cargando data");
@@ -378,12 +361,12 @@
 
         function displayUI(data,sector,cursoId,dataArt){
             //renderiza encabezado descripcion           
-            var courseData = {
+            let courseData = {
                     cursos : data.filter(curso => curso.id === cursoId),
 
                 };
             
-            var categorias = {
+            let categorias = {
                     data : dataArt.categorias.filter(categoria => categoria.categoria === sector),
                     cursos : data.filter(curso => curso.id === cursoId),
 
@@ -391,21 +374,21 @@
             console.log(categorias);
 
                 
-            var courseTemplate = $('#course-detail-template').html();
-            var courseText = Mustache.render(courseTemplate,courseData.cursos);
+            let courseTemplate = $('#course-detail-template').html();
+            let courseText = Mustache.render(courseTemplate,courseData.cursos);
             $("#course-detail-container").html(courseText);
 
 
-            var tabsTemplate = $("#tabs-template").html();
-            var tabsText = Mustache.render(tabsTemplate,courseData.cursos);
+            let tabsTemplate = $("#tabs-template").html();
+            let tabsText = Mustache.render(tabsTemplate,courseData.cursos);
             $("#tabs-container") .html(tabsText);
 
-            var dirijidoTemplate = $("#dirijido-template").html();
-            var dirijidoText = Mustache.render(dirijidoTemplate,categorias);
+            let dirijidoTemplate = $("#dirijido-template").html();
+            let dirijidoText = Mustache.render(dirijidoTemplate,categorias);
             $("#dirijido-container").html(dirijidoText);
 
-            var asideTemplate = $("#aside-template").html();
-            var asideText = Mustache.render(asideTemplate,courseData.cursos);
+            let asideTemplate = $("#aside-template").html();
+            let asideText = Mustache.render(asideTemplate,courseData.cursos);
             $("#faqaside") .html(asideText);
         }
         
