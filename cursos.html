@@ -65,26 +65,6 @@
                 
     </nav>
 
-    <!-- <div id="header" class="px-md-4">
-
-        <div data-aos="fade-up" class=" mt-2 row justify-content-center" style="position: relative;">
-
-            <div class="col-auto">
-                <div class="col-auto text-title">Capacitación y asistencia técnica, en formato <span
-                        class="font-weight-bold">presencial</span>,
-                    <span class="font-weight-bold">virtual</span> y <span class="font-weight-bold">en línea</span> de
-                    acuerdo a tus necesidades
-                </div>
-            </div>
-            <div class="col-auto align-self-center">
-                <div class="btn-1 ">#NafinTeCapacita</div>
-            </div>
-        </div>
-
-        <div id="main-menu" data-aos="zoom-in" class="row justify-content-center px-5 px-md-0"
-            style="margin-top: 32px;"></div>
-    </div> -->
-
     <div id="cursos-header" style="margin-top: 68px;" class="row mx-0">
         <div id="cursos-header-textura" class="col-md-4 col-sm-12 d-flex align-items-center">
             <div data-aos="zoom-in" class="row justify-content-center mx-auto px-4 px-md-0 " id="btn-4s">
@@ -237,9 +217,7 @@
                     
                         <div class="col-sm offset-sm-12">
                              <div class="card" style="width: 18rem; border-color: transparent;">
-                                <!-- <div class="card-body" style="background:#691c32 url(./resources/texturacafedeloscursos510x100.png);height:90px;">
-                                    <h5 class="card-title text-center font-weight-bold" >{{content}}</h5>
-                                </div> -->
+              
                                 <div class="card-body" style="background: transparent url({{linkimagen}}); width:440px; height: 219px;">
                                     <h5 class="card-title text-center font-weight-bold"style="width:50%; " >{{content}}</h5>
                                    <p class="card-text" style="width:50%; font-size: 16px;">{{duracion}}</p>
@@ -314,33 +292,6 @@
 
 
     </template>
-    <!-- <template class="d-none" id="card-template">
-        {{#cards}}
-
-        <div class="article-item mt-5" data-aos="fade-up">
-            <button class="{{textColor}} font-weight-bold text-left pl-4" type="button" data-toggle="collapse"
-                data-target="#{{tipo}}"
-                style="width: 850px; max-width: 100%; height: 100px; background: {{color}} url({{pathTextura}}); background-repeat: no-repeat; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border: none; font-size: 28px; box-shadow: 16px 10px 20px #999999;">
-                <img src="{{pathVineta}}" width="18px" class="mr-2">
-                {{titulo}}
-            </button>
-
-            <div class="collapse show" id="{{tipo}}">
-                <div class="ml-5 mt-4">
-                    {{#contentList}}
-                    <div class="mt-2">
-                        <a href="{{link}}"><img src="{{pathClick}}" width="28px" class="mr-1"> {{content}} </a>
-                    </div>
-                    {{/contentList}}
-
-                </div>
-
-            </div>
-        </div>
-
-        {{/cards}}
-    </template> -->
-
 
 
     <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
@@ -379,7 +330,7 @@
             });
 
             console.log(params.sector);
-            var sector = params.sector === null || "" ? "CEF" : params.sector;
+            let sector = params.sector === null || "" ? "CEF" : params.sector;
             console.log("sector");
             console.log(sector);
 
@@ -397,7 +348,7 @@
                 //activar blanco actual
                 $(this).find(".img-w").removeClass("d-none");
 
-                var category = $(this).attr("data");
+                let category = $(this).attr("data");
                 $.getJSON('./js/articles.json', function (data) {
                     displayMenuOption(data, category);
                 });
@@ -416,8 +367,8 @@
             $.getJSON('./js/articles.json', function (data) {
 
                 //renderiza menu
-                var menuTemplate = $('#menu-template').html();
-                var menuText = Mustache.render(menuTemplate, data);
+                let menuTemplate = $('#menu-template').html();
+                let menuText = Mustache.render(menuTemplate, data);
                 $("#main-menu").html(menuText);
                 displayMenuOption(data, sector);
 
@@ -431,16 +382,16 @@
 
         function displayMenuOption(data, categoryParam) {
             //renderiza encabezado descripcion
-            var cgyFilter = {
+            let cgyFilter = {
                 categorias: data.categorias.filter(category => category.categoria === categoryParam)
             };
 
-            var artHeadTemplate = $('#article-header-template').html();
-            var artHeadText = Mustache.render(artHeadTemplate, cgyFilter);
+            let artHeadTemplate = $('#article-header-template').html();
+            let artHeadText = Mustache.render(artHeadTemplate, cgyFilter);
             $("#header-article-content").html(artHeadText);
 
             //renderiza articulos
-            var articles = data.articles.filter(article => article.tags.categoria.includes(categoryParam));
+            let articles = data.articles.filter(article => article.tags.categoria.includes(categoryParam));
             //setea propiedades dinámicas
             articles.forEach(a => {
                 if (a.tipo == 'CP') {
@@ -469,12 +420,12 @@
                     a.textColor = "text-white";
                 }
             });
-            var artFilter = {
+            let artFilter = {
                 articles: articles
             };
 
-            var artTemplate = $('#article-template').html();
-            var artText = Mustache.render(artTemplate, artFilter);
+            let artTemplate = $('#article-template').html();
+            let artText = Mustache.render(artTemplate, artFilter);
             $("#course-list-content").html(artText);
         }
     </script>
