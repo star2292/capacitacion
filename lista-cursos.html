@@ -79,7 +79,6 @@
             
                     </div>
             
-                    <!--<img src="./resources/prueba.png" id="course-detail-img" class="img-fluid" alt="Responsive image" >-->
                 </div>
             </div>
             <div class="px-5 my-4" id="lista-course-container">
@@ -188,24 +187,7 @@
             </div>
         </div>
     </footer>
-    <!-- <template class="d-none" id="lista-course-template">
-         {{#.}}
-        <div  class="row py-2"  style="border-top: 1px solid black; border-bottom: 1px solid black;">
-            <div class="col-sm-12 col-md-8 mt-2 d-flex">
-                <img src="{{miniature}}"  class="inline-flex justify-content-center align-self-center" width="100" height="100" style="border-radius: 5px;">
-                <div class="px-5 inline-flex justify-content-center align-self-center">
-                    <h3><a href="ficha-curso.html?course={{id}}&sector=CEF">{{nombre}}</a></h3>
-                    <p> <span class="font-weight-bold">Instructor: </span> {{instructor}}</p>
-                    <p> <span class="font-weight-bold">Duracion: </span> {{duracion}}</p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4 mt-2 align-bottom">
-                <p> Modalidad: <span class="font-weight-bold">En línea</span></p>
-                <p> Programa: <span class="font-weight-bold">{{programa}}</span></p>
-            </div>
-        </div>
-        {{/.}}
-    </template> -->
+ 
     <template class="d-none" id="lista-course-template">
         {{#.}}
         <div class="article-item mt-5" data-aos="fade-up" >
@@ -229,10 +211,7 @@
                                 <p> <span class="font-weight-bold">Categoría: </span> {{programa}}</p>
                             </div>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-4 mt-2 align-bottom">
-                            <p> Modalidad: <span class="font-weight-bold">En línea</span></p>
-                            <p> Programa: <span class="font-weight-bold">{{programa}}</span></p>
-                        </div> -->
+                       
                     </div>
                     {{/contentList}}
                     
@@ -285,11 +264,11 @@
             });
 
             console.log(params.course);
-            var cursoId = params.course;
+            let cursoId = params.course;
             console.log(cursoId);
 
 
-            var sector = params.sector === null || "" ? "CEF" : params.sector;
+            let sector = params.sector === null || "" ? "CEF" : params.sector;
 
              $.getJSON('./js/categoria.json', function (data) {
                 console.log("cargando data");
@@ -336,11 +315,10 @@
             });
             //renderiza encabezado descripcion           
 
-            var courseTemplate = $('#lista-course-template').html();
-            //console.log(courseTemplate);
-            //var courseList = data.filter(course => course.id !== "");
-            var courseList = data;
-            var courseText = Mustache.render(courseTemplate,courseList);
+            let courseTemplate = $('#lista-course-template').html();
+           
+            let courseList = data;
+            let courseText = Mustache.render(courseTemplate,courseList);
             console.log(courseText);
             $("#lista-course-container").html(courseText);
                 
