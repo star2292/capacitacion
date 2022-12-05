@@ -39,9 +39,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cursos.html">Explora</a>
                 </li>
-              <!-- <li class="nav-item">
-                    <a class="nav-link" href="eventos.html">Eventos</a>
-                </li> -->
+
                 <li class="nav-item">
                     <a class="nav-link" href="capsulas.html">Cápsulas</a>
                 </li>
@@ -121,10 +119,6 @@
 
     <div class="container py-5" id="blog-list">
         <div class="row" data-aos="fade-left">
-			
-            <!--div  class="col-sm-12 col-md-8" id="blog-list-content">
-            
-            </div-->
 			 
 			<!-- nuevo cambio sin mustache -->
 			<div  class="col-sm-12 col-md-8" id="blog-list-content-2">
@@ -311,23 +305,20 @@
 
 
             $.getJSON('./js/blog.json', function (data) {
-                var template = $('#blog-template').html();
-                var text = Mustache.render(template, data);
+                let template = $('#blog-template').html();
+                let text = Mustache.render(template, data);
                 $("#blog-list-content").html(text);
 
-                var lastPost = data.blogList.slice(-4);
+                let lastPost = data.blogList.slice(-4);
                
 
-                var templateMiniatures = $('#last-blog-template').html();
-                var textMiniatures = Mustache.render(templateMiniatures, lastPost);
+                let templateMiniatures = $('#last-blog-template').html();
+                let textMiniatures = Mustache.render(templateMiniatures, lastPost);
                 //console.log(textMiniatures);
 
                 $("#miniature-list").html(textMiniatures);
 
-
-
             });
-
 
         });
     </script>
