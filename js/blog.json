@@ -1,8 +1,8 @@
 {
     "blogList":[
-        {"id":1, "duration":8, "month":"Enero","day":"20","description":"contenido descripcion 1", "titulo":"Tips para un curso online exitoso","link":"","image":"./resources/blog/834x429sinweb.png","miniature":"./resources/blog/150x150sinweb.png", "relacionados":[2,3]},
-        {"id":2, "duration":8, "month":"Enero","day":"21","description":"contenido descripcion 2", "titulo":"Mejora la confianza empresarial","link":"","image":"./resources/blog/834x429confianzaempresarial.png","miniature":"./resources/blog/150x150confianzaempresarial.png" ,"relacionados":[2,3]},
-        {"id":3, "duration":8, "month":"Enero","day":"22","description":"contenido descripcion 3", "titulo":"Retos y oportunidades de las pymes y emprendedores en México","link":"","image":"./resources/blog/834x429-pymesyemprendedores.png","miniature":"./resources/blog/150x150pymesyemprendedores.png", "relacionados":[2,3]},
-        {"id":4, "duration":8, "month":"Enero","day":"23","description":"contenido descripcion 4", "titulo":"Consejos para proteger tu pyme","link":"","image":"./resources/blog/834x429protegerpymes.png", "miniature":"./resources/blog/150x150protegerpymes.png", "relacionados":[2,3]}
+        {"id":1, "duration":8, "month":"Enero","day":"20","description":"contenido descripcion 1", "titulo":"Buró de crédito","link":"./ficha-curso.html?course=3&sector=CEF","image":"./resources/blog/834x429sinweb.png","miniature":"./resources/miniatura/buro-de-credito.png", "relacionados":[2,3]},
+        {"id":2, "duration":8, "month":"Enero","day":"21","description":"contenido descripcion 2", "titulo":"Cómo obtener crédito en un banco","link":"./ficha-curso.html?course=33&sector=CEF","image":"./resources/blog/834x429confianzaempresarial.png","miniature":"./resources/cursos/comoobteneruncreditoenunbanco150x150.png" ,"relacionados":[2,3]},
+        {"id":3, "duration":8, "month":"Enero","day":"22","description":"contenido descripcion 3", "titulo":"Cetesdirecto, mecanismos de ahorro y alternativas de inversion","link":"./ficha-curso.html?course=2&sector=CEF","image":"./resources/blog/834x429-pymesyemprendedores.png","miniature":"./resources/miniatura/inversion-de-ahorro.png", "relacionados":[2,3]}
+    
     ]
 }

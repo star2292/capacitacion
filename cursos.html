@@ -101,7 +101,7 @@
                     asistencia
                     técnica, en formato <span class="font-weight-bold">presencial</span>,
                     <span class="font-weight-bold">virtual</span> y <span class="font-weight-bold">en línea</span> de
-                    acuerdo a tus necesidades
+                    acuerdo a tus necesidades.
                 </div>
                 <div class="" id="header-article-content"></div>
             </div>
@@ -132,33 +132,67 @@
                     </div>
                     <div class="d-flex mb-4 align-items-center">
                         <img src="./resources/correo.svg" class="mr-3" width="30px">
-                        ayuda@nafintecapacita.com
+                        capacitacion@nafintecapacita.com
                     </div>
 
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4" style="outline: none;box-shadow: none;">
                 <div class="underlined underlined-footer footer-title mb-4">El Banco</div>
-                <div class="footer-link mb-2">Acerca de NAFIN</div>
-                <div class="footer-link mb-2">Artículos</div>
-                <div class="footer-link mb-2">Contacto</div>
-                <div class="footer-link mb-2"></div>
+                <a href="https://www.nafin.com/portalnf/content/home/home.html">
+                    <div class="footer-link mb-2">Nafin</div>
+                </a>
+                <a href="https://www.cetesdirecto.com/sites/portal/inicio">
+                    <div class="footer-link mb-2">Cetes Directo</div>
+                </a>
+                <a href="https://www.nafin.com/portalnf/content/desarrollo-empresarial-y-asistencia-tecnica/herramientas-de-negocio/sitios_interes.html">
+                    <div class="footer-link mb-2">Sitios de Interés</div>
+                </a>
+                <a href=" https://www.nafin.com/portalnf/content/marco-legal/">
+                    <div class="footer-link mb-2">Marco Legal</div>
+                </a>
+                
+                
+               
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4" style="outline: none;box-shadow: none;">
                 <div class="underlined underlined-footer footer-title mb-4">Enlaces</div>
-                <div class="footer-link mb-2">Cursos</div>
-                <div class="footer-link mb-2">Eventos</div>
-                <div class="footer-link mb-2">Noticias</div>
-                <div class="footer-link mb-2">Opiniones</div>
+                <a href="https://www.nafintecapacita.com/portal/lista-cursos.html">
+                    <div class="footer-link mb-2">Cursos</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/capsulas.html">
+                    <div class="footer-link mb-2">Cápsulas</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/blog.html">
+                    <div class="footer-link mb-2">Artículos</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/contacto.html">
+                    <div class="footer-link mb-2">Contacto</div>
+                </a>          
+               
+                
+                
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4" style="outline: none;box-shadow: none;">
                 <div class="underlined underlined-footer footer-title mb-4">Gobierno de México</div>
-                <div class="footer-link mb-2">Participa</div>
-                <div class="footer-link mb-2">Publicaciones Oficiales</div>
-                <div class="footer-link mb-2">Marco Jurídico</div>
-                <div class="footer-link mb-2">Plataforma Nacional de Transparencia</div>
-                <div class="footer-link mb-2">Alerta</div>
-                <div class="footer-link mb-2">Denuncia</div>
+                
+                <a href="https://www.gob.mx/shcp">
+                    <div class="footer-link mb-2">SHCP</div>
+                </a>
+               
+                <a href="https://datos.gob.mx/">
+                    <div class="footer-link mb-2">Datos</div>
+                </a>
+                <a href="https://www.gob.mx/publicaciones">
+                    <div class="footer-link mb-2">Publicaciones</div>
+                </a>
+                <a href="https://www.plataformadetransparencia.org.mx/">
+                    <div class="footer-link mb-2">PNT</div>
+                </a>
+                <a href="https://alertadores.funcionpublica.gob.mx/">
+                    <div class="footer-link mb-2">Alerta</div>
+                </a>
+               
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Síguenos en</div>
@@ -191,6 +225,26 @@
 
             <div class="collapse show" id="{{tipo}}">
                 <div class="ml-5 mt-4">
+
+                    {{#subartitle}}
+                        <button class="{{textColor}} font-weight-bold text-left pl-4 oswald" type="button" data-toggle="collapse"
+                            data-target="#{{subtipo}}"
+                            style="width: 850px; max-width: 100%; height: 60px; background: {{color}} url({{pathTextura}}); background-repeat: no-repeat; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border: none; font-size: 28px; box-shadow: 16px 10px 20px #999999; margin-top:8px;">
+                            <img src="{{pathVineta}}" width="18px" class="mr-2">
+                            {{subtitulo}}
+                        </button>
+                        <div class="collapse show" id="{{subtipo}}">
+                            <div class="ml-5 mt-4">
+                                {{#subcontentList}}
+                                <div class="mt-2">
+                                  <a href="{{link}}"><img src="{{pathClick}}" width="28px" class="mr-1"> {{content}} </a>
+                                </div>
+                            {{/subcontentList}}
+                            </div>
+                        </div>
+                       
+                    {{/subartitle}}
+                    
                     
                     {{#contentList}}
                     <div class="mt-2">

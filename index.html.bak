@@ -37,11 +37,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cursos.html">Explora</a>
                 </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                     <a class="nav-link" href="eventos.html">Eventos</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="capsulas.html">Capsulas</a>
+                    <a class="nav-link" href="capsulas.html">Cápsulas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html">Artículos</a>
@@ -126,36 +126,36 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                         <div data-aos="fade-up" class="ml-5" style="position: absolute; margin-top: 110px; z-index: 100;">
-                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">Nafin Te Capacita</div>
-                            <div style="font-size: 23px;" id="header-subtitle" class="mb-2 text-black">Capacitación empresarial a tu medida</div>
-                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#NafinTeCapacita</div>
+                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">NACIONAL FINANCIERA</div>
+                            <div style="font-size: 23px;" id="header-subtitle" class="mb-2 text-black">Imparte capacitación y asistencia técnica <br> sin costo, en formato <b> presencial y a <br> distancia “webinars” </b>de acuerdo <br> a tus necesidades.</div>
+                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#Nafintecapacita</div>
                             <a class="btn-2" href="lista-cursos.html" >Ver más</a>
                         </div>
-                        <div style="    position: relative;background-image: url('resources/carruselImg1.png');background-size: cover;height: 582px;">
+                        <div style="    position: relative;background-image: url('resources/carruselImg1.jpeg');background-size: cover;height: 582px;">
                     </div>
 
                   </div>
 
                   <div class="carousel-item">
                         <div data-aos="fade-up" class="ml-5" style="position: absolute; margin-top: 110px; z-index: 100;">
-                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">Nafin Te Capacita</div>
-                            <div style="font-size: 23px;" id="header-subtitle" class="mb-2 text-black">Capacitación empresarial a tu medida</div>
-                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#NafinTeCapacita</div>
+                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">NACIONAL FINANCIERA</div>
+                            <div style="font-size: 23px;" id="header-subtitle" class="mb-2 text-black">Contribuye al desarrollo económico de<br> México, facilitando <b>financiamiento <br>y desarrollo empresarial.</b></div>
+                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#Nafintecapacita</div>
                             <a class="btn-2" href="lista-cursos.html" >Ver más</a>
                         </div>
-                        <div style="    position: relative;background-image: url('resources/2principalbaners1291x674.png');background-size: cover;height: 582px;">
+                        <div style="    position: relative;background-image: url('resources/2principalbaners1291x674.jpeg');background-size: cover;height: 582px;">
                     </div>
 
                   </div>
 
                   <div class="carousel-item">
                         <div data-aos="fade-up" class="ml-5" style="position: absolute; margin-top: 110px; z-index: 100;">
-                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">Nafin Te Capacita</div>
-                            <div style="font-size: 23px;max-width: 380px;" id="header-subtitle" class="mb-2 text-black">Capacitación y asistencia técnica, en formato presencial, virtual y en línea de acuerdo a tus necesidades.</div>
-                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#NafinTeCapacita</div>
+                            <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">NACIONAL FINANCIERA</div>
+                            <div style="font-size: 23px;max-width: 380px;" id="header-subtitle" class="mb-2 text-black">Contribuye a la <b>formación de mercados financieros,</b> impulsa la innovación, mejora la productividad, competitividad, generación de empleos y crecimiento regional.</div>
+                            <div style="margin-top: 83px; font-weight: bold; font-size: 30px; color: #1d1d1b; margin-bottom: 1em;">#Nafintecapacita</div>
                             <a class="btn-2" href="lista-cursos.html" >Ver más</a>
                         </div>
-                        <div style="    position: relative;background-image: url('resources/3principalbaners1291x674.png');background-size: cover;height: 582px;">
+                        <div style="    position: relative;background-image: url('resources/imagen1carrusel.png');background-size: cover;height: 582px;">
                     </div>
 
                   </div>
@@ -190,13 +190,74 @@
         </div>
         <div class="row text-center">
 			
-            <div class="col-sm-12 col-md-4 mb-sm-3 mb-md-0" data-aos="flip-up">
-			
-                <a href="ficha-curso.html?course=54&sector=CEF" style="text-decoration: none;">
-                    <div class="diagonalItem">
-                        <div class="content align-self-center" style="background-image: url(./resources/texturaroja407x299.png); background-size: cover; height: 250px; width: 299; color: white;box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75) ">
+           
+
+            <div class="col-sm-12 col-md-3 mb-sm-2 mb-md-0" data-aos="flip-up">
+                <!--a href="ficha-curso.html?course=5&sector=CN" style="text-decoration: none;"-->
+                    <div id="videoBCredito" data-toggle="modal" data-target="#videoModal" class="diagonalItem" style="cursor: pointer">
+                        <div class="content align-self-center" style="background-image: url(./resources/buro_credito.png); background-size: 100% 100%; height: 340px; width: 299; color: white; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75)">
                           
-                           <div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
+                           <!--div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
+                                <div class="align-self-center" style="margin-top: 10%;  padding-right: 1em; height:80px; margin-right: 1em;">
+                                    <img src="./resources/avatar-2.png"  style="border-radius: 50%; border-right: 2px solid #fff; margin-left: 80%" width="100px">
+                                </div>
+                                <div class="align-self-center" style="margin-top: 10%; margin-left: 30%;">
+                                    <h3 style="font-size: 15px;">Laura Gonzales</h3>
+                                    <h4 style="font-size: 11px;">Mujeres emprendedoras</h4> 
+                                 </div>
+                               
+                           </div-->
+                    
+                        </div>
+                        <!--div class="trapezoidImg" style="position: absolute; top:0;">
+                            <div style="height: 250px; width: 180px;  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);background-image: url(./resources/mujeresemprendedoras288x250.png); background-size: cover;">
+                                
+                            </div>
+                        </div-->
+                    </div>
+                <!--/a-->
+				
+				<!--div id="videoEMujeres" data-aos="fade-left" class="col-auto">
+					<h2 data-toggle="modal" data-target="#videoModal" class="underlined" style="position:absolute; cursor: pointer">Ver video introductorio</h2>
+				</div-->
+            </div>
+            <div class="col-sm-12 col-md-3 mb-sm-2 mb-md-0" data-aos="flip-up">
+                <!--a href="ficha-curso.html?course=5&sector=CN" style="text-decoration: none;"-->
+                    <div id="videoEMujeres" data-toggle="modal" data-target="#videoModal" class="diagonalItem" style="cursor: pointer">
+                        <div class="content align-self-center" style="background-image: url(./resources/mujeres_emprendedoras.png); background-size: 100% 100%; height: 340px; width: 299; color: white; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75)">
+                          
+                           <!--div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
+                                <div class="align-self-center" style="margin-top: 10%;  padding-right: 1em; height:80px; margin-right: 1em;">
+                                    <img src="./resources/avatar-2.png"  style="border-radius: 50%; border-right: 2px solid #fff; margin-left: 80%" width="100px">
+                                </div>
+                                <div class="align-self-center" style="margin-top: 10%; margin-left: 30%;">
+                                    <h3 style="font-size: 15px;">Laura Gonzales</h3>
+                                    <h4 style="font-size: 11px;">Mujeres empresarias</h4> 
+                                 </div>
+                               
+                           </div-->
+                    
+                        </div>
+                        <!--div class="trapezoidImg" style="position: absolute; top:0;">
+                            <div style="height: 250px; width: 180px;  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);background-image: url(./resources/mujeresemprendedoras288x250.png); background-size: cover;">
+                                
+                            </div>
+                        </div-->
+                    </div>
+                <!--/a-->
+				
+				<!--div id="videoEMujeres" data-aos="fade-left" class="col-auto">
+					<h2 data-toggle="modal" data-target="#videoModal" class="underlined" style="position:absolute; cursor: pointer">Ver video introductorio</h2>
+				</div-->
+            </div>
+
+            <div class="col-sm-12 col-md-3 mb-sm-2 mb-md-0" data-aos="flip-up">
+			
+                <!--a href="ficha-curso.html?course=3&sector=CEF" style="text-decoration: none;"-->
+                    <div id="videoPNegocios" data-toggle="modal" data-target="#videoModal" class="diagonalItem" style="cursor: pointer">
+                        <div class="content align-self-center" style="background-image: url(./resources/13_pasos.png); background-size: 100% 100%; height: 340px; width: 299; color: white;box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75) ">
+                          
+                           <!--div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
                                 <div class="align-self-center" style="margin-top: 10%;  padding-right: 1em; height:80px; margin-right: 1em;">
                                     <img src="./resources/avatar-1.png"  style="border-radius: 50%; border-right: 2px solid #fff; margin-left: 80%;" width="100px">           
                                 </div>
@@ -207,82 +268,54 @@
                                  </div>
                                 
                                
-                           </div>
+                           </div-->
                     
                         </div>
-                        <div class="trapezoidImg" style="position: absolute; top:0;">
+                        <!--div class="trapezoidImg" style="position: absolute; top:0;">
                             <div style="height: 250px; width: 180px;  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);background-image: url(./resources/burodecredito288x250.png); background-size: cover;">
                                 
                             </div>
-                        </div>
+                        </div-->
                     </div>
-                </a>
+                <!--/a-->
 
-				<div id="videoBCredito" data-aos="fade-left" class="col-auto">
+				<!--div id="videoBCredito" data-aos="fade-left" class="col-auto">
 					<h2 data-toggle="modal" data-target="#videoModal" class="underlined" style="position:absolute; cursor: pointer">Ver video introductorio</h2>
-				</div>
+				</div-->
             </div>
 
-            <div class="col-sm-12 col-md-4 mb-sm-3 mb-md-0" data-aos="flip-up">
-                <a href="ficha-curso.html?course=14&sector=CN" style="text-decoration: none;">
-                    <div class="diagonalItem">
-                        <div class="content align-self-center" style="background-image: url(./resources/texturaverde407x299.png); background-size: cover; height: 250px; width: 299; color: white; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75)">
+            <div class="col-sm-12 col-md-3 mb-sm-2 mb-md-0" data-aos="flip-up">
+                <!--a href="ficha-curso.html?course=35&sector=CFE" style="text-decoration: none;"-->
+                    <div id="videoMicrocredito" data-toggle="modal" data-target="#videoModal" class="diagonalItem" style="cursor: pointer">
+                        <div class="content align-self-center" style="background-image: url(./resources/microcredito.png); background-size: 100% 100%; height: 340px; width: 299; color: white; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75)">
                           
-                           <div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
-                                <div class="align-self-center" style="margin-top: 10%;  padding-right: 1em; height:80px; margin-right: 1em;">
-                                    <img src="./resources/avatar-2.png"  style="border-radius: 50%; border-right: 2px solid #fff; margin-left: 80%" width="100px">
-                                </div>
-                                <div class="align-self-center" style="margin-top: 10%; margin-left: 30%;">
-                                    <h3 style="font-size: 15px;">Laura Gonzales</h3>
-                                    <h4 style="font-size: 11px;">Mujeres emprendedoras</h4> 
-                                 </div>
-                               
-                           </div>
-                    
-                        </div>
-                        <div class="trapezoidImg" style="position: absolute; top:0;">
-                            <div style="height: 250px; width: 180px;  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);background-image: url(./resources/mujeresemprendedoras288x250.png); background-size: cover;">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </a>
-				
-				<div id="videoEMujeres" data-aos="fade-left" class="col-auto">
-					<h2 data-toggle="modal" data-target="#videoModal" class="underlined" style="position:absolute; cursor: pointer">Ver video introductorio</h2>
-				</div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 mb-sm-3 mb-md-0" data-aos="flip-up">
-                <a href="ficha-curso.html?course=39&sector=CFE" style="text-decoration: none;">
-                    <div class="diagonalItem">
-                        <div class="content align-self-center" style="background-image: url(./resources/texturadorada407x299.png); background-size: cover; height: 250px; width: 299; color: white; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75)">
-                          
-                           <div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
+                           <!--div class="d-flex justify-content-end align-items-center d-flex flex-column" style="margin-left: 2em;">
                                 <div class="align-self-center" style="margin-top: 10%;  padding-right: 1em; height:80px; margin-right: 1em;">
                                     <img src="./resources/avatar-3.png"  style="border-radius: 50%; border-right: 2px solid #fff; margin-left: 80%" width="100px">
                                 </div>
-                                <div class="align-self-center" style="margin-top: 10%; margin-left: 30%;color: #000;">
+                                <div class="align-self-center" style="margin-top: 10%; margin-left: 38%;color: #000;">
                                     <h3 style="font-size: 15px;">Ignacio Hernández</h3>
                                     <h4 style="font-size: 11px;">Conoce cadenas <br>productivas</h4>									
                                  </div>
                                
-                           </div>
+                           </div-->
                     
                         </div>
-                        <div class="trapezoidImg" style="position: absolute; top:0;">
+                        <!--div class="trapezoidImg" style="position: absolute; top:0;">
                             <div style="height: 250px; width: 180px;  clip-path: polygon(0 0, 100% 0, 65% 100%, 0% 100%);background-image: url(./resources/cadenasproductivas288x250.png); background-size: cover;">
                                 
                             </div>
-                        </div>
+                        </div-->
                     </div>
 
-                </a>
+                <!--/a-->
 				
-				<div id="videoCProductivas" data-aos="fade-left" class="col-auto">
+				<!--div id="videoCProductivas" data-aos="fade-left" class="col-auto">
 					<h2 data-toggle="modal" data-target="#videoModal" class="underlined" style="position:absolute; cursor: pointer">Ver video introductorio</h2>
-				</div>
+				</div-->
             </div>
+			
+			
             
 
 
@@ -291,7 +324,7 @@
 
         </div>
         <div class="text-center">
-            <a class="btn-2 mt-3 mb-3" href="lista-cursos.html" >Ver todos</a>
+            <a class="btn-2 mt-3 mb-3" href="lista-cursos.html" >Ver todos los cursos</a>
         </div>
     </div>
 
@@ -304,7 +337,7 @@
                 <div data-aos="fade-up" class="ml-5" style="position: absolute; margin-top: 110px; z-index: 100;">
                     
                     <div style="font-size: 23px;" id="header-subtitle" class="mb-2 text-black"  data-aos="fade-down" data-aos-id="super-duper">Forma parte de la comunidad</div>
-                    <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">#NafinTeCapacita</div>
+                    <div style="font-weight: bold; font-size: 36px; line-height: 40px;" id="" class="text-black">#Nafintecapacita</div>
                     
                     <div style="font-size: 23px;" id="header-subtitle" class=" mt-5 mb-2 text-black">Sigamos impulsando el
 desarrollo de México.</div>
@@ -375,14 +408,14 @@ desarrollo de México.</div>
 
 
 
-    <div class="container pb-5">
+    <!-- <div class="container pb-5">
         <h1 data-aos="fade-right" class="oswald">Eventos</h1>
         <div class="row justify-content-between align-items-center mb-5">
             <div data-aos="fade-right" class="col-sm-8 mb-3 mb-md-0">
                 <h2 class="underlined">Próximos eventos educativos para ti o tu empresa</h2>
             </div>
             <div class="col-sm-4">
-                <!--<button class="btn-2" style="padding:4px 15px">Ver todos</button>-->
+                <!--<button class="btn-2" style="padding:4px 15px">Ver todos</button>--
             </div>
         </div>
         <div data-aos="fade-right" class="row align-items-center justify-content-between eventos"
@@ -441,7 +474,7 @@ desarrollo de México.</div>
                 <img src="./resources/evento-2.png">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="py-5" id="ultimas-noticias"
         style="background-image: url(./resources/ultimasnoticiastextura1755x-624.png); background-size: cover; height: 450px; color: white; position: relative;">
@@ -453,44 +486,55 @@ desarrollo de México.</div>
         <div data-aos="zoom-in" class="row mt-5 text-center justify-content-center px-md-5">
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <img src="./resources/venderenlinea.png">
-                <div class="d-table"
+                <a style="text-decoration: none;"  href="https://marketing4ecommerce.mx/75-de-las-pymes-en-mexico-incrementara-su-inversion-en-estrategias-digitales/">
+                <img src="./resources/75pymesMexico.png" height="200px">
+                <!-- <div class="d-table"
                     style="background-color: #fff;color: #000; border-radius: 6px; font-size: 11px; font-weight: bold; margin-top: -1em; position: relative; z-index: 10; padding: 4px 12px; margin-right: auto; margin-left: auto;">
-                    Arturo Jimenez - 20/05/2022</div>
-                <div class="font-weight-bold mt-2" style="font-size: 12px;">¿Cómo hago para vender en línea?</div>
+                    Arturo Jimenez - 20/05/2022</div> -->
+                <div class="font-weight-bold mt-2" style="font-size: 16px; color: white;">75% de las pymes en México incrementarán su inversión en estrategias digitales.</div>
+            </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <img src="./resources/erroresquefrenanelcrecimientodetunegocio.png">
-                <div class="d-table"
+                <a style="text-decoration: none;"  href="https://www.24-horas.mx/2022/11/22/ocde-mejora-previsiones-para-economia-de-mexico-en-2022-y-2023/">
+                <img src="./resources/OCDE.png" height="200px">
+                <!-- <div class="d-table"
                     style="background-color: #fff; color: #000; border-radius: 6px; font-size: 11px; font-weight: bold; margin-top: -1em; position: relative; z-index: 10; padding: 4px 12px; margin-right: auto; margin-left: auto;">
-                    Raul Alonso - 03/06/2022</div>
-                <div class="font-weight-bold mt-2" style="font-size: 12px;">Errores que frenan el crecimiento de tu
-                    negocio</div>
+                    Raul Alonso - 03/06/2022</div> -->
+                <div class="font-weight-bold mt-2" style="font-size: 16px; color: white;">OCDE mejora previsiones para economía de México en 2022 y 2023
+                </div>
+            </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-                <img src="./resources/mujerexitosa.png">
-                <div class="d-table"
+                <a style="text-decoration: none;" href="https://www.dineroenimagen.com/empresas/pymes-aportan-mas-la-creacion-del-empleo-formal/148741">
+                <img src="./resources/pymes-empleo-formal.jpg" height="200px">
+                <!-- <div class="d-table"
                     style="background-color: #fff; color: #000; border-radius: 6px; font-size: 11px; font-weight: bold; margin-top: -1em; position: relative; z-index: 10; padding: 4px 12px; margin-right: auto; margin-left: auto;">
-                    Jimena Ortiz - 16/06/2022</div>
-                <div class="font-weight-bold mt-2" style="font-size: 12px;">6 consejos para mujeres exitosas</div>
+                    Jimena Ortiz - 16/06/2022</div> -->
+                <div class="font-weight-bold mt-2" style="font-size: 16px; color: white;">Pymes aportan más a la creación del empleo formal
+                </div>
+            </a>
             </div>
 
         </div>
     </div>
 
-    <div class=" mt-5 text-center mb-1">
-        <h1 data-aos="fade-down" class="oswald">Comentarios ...</h1>
-        <h2 data-aos="fade-down">Opinión de nuestros estudiantes acerca de #NafinTeCapacita</h2>
+    <div class=" mt-5 t mb-1">
+        <div  style="margin-left: 5%;margin-bottom: 30px;">
+            <h1 data-aos="fade-right" class="oswald">Comentarios ...</h1>
+            <h2 data-aos="fade-right" class="underlined ">Opinión de nuestra comunidad acerca de #Nafintecapacita</h2>
+
+        </div>
+        
 
             
-    <d  iv class=" py-5" style="margin-top: 30px;">
+      <!-- <div class=" py-5" style="margin-top: 30px;"> -->
         <div id="students" class="row d-flex " > 
             <div  id="comentarios-control" class="col-md-4 col-sm-12 d-flex"
                 style="background-image: url(./resources/comentariostexturaverde510x443.png); background-size: cover; height: 443px; color: white; position: relative;padding: 0; box-shadow: 15px 0px 15px -10px rgba(0,0,0,0.75);z-index: 300;">
 
                 <div data-aos="fade-up" class="ml-5 align-self-center" style="position: absolute;  z-index: 100;">
                     
-                    <div style="font-weight: bold; font-size: 36px; line-height: 40px; color: #fff;" id="" class="text-black">Nuestros estudiantes</div>
+                    <div style="font-weight: bold; font-size: 36px; line-height: 40px; color: #fff;" id="" class="text-black">Nuestra comunidad</div>
                     
                 </div>
 
@@ -514,7 +558,7 @@ desarrollo de México.</div>
                                             <img src="./resources/principalimagen338x338estudiantes.png" style="border-radius: 50%; width: 100%;"/>
                                         </div>
                                         <div class="col-8 d-flex">
-                                            <div style="font-size: 23px;" id="header-subtitle" class="text-left align-self-center">¡Excelentes cursos! Y muy claro.
+                                            <div style="font-size: 23px;" id="header-subtitle" class="text-left align-self-center">¡Excelentes cursos! Y muy claros.
                                             </div>
                                                                             </div>
                                         </div>
@@ -533,9 +577,9 @@ desarrollo de México.</div>
                                         <div class="col-4">
                                             <img src="./resources/principalimagen338x338estudiantes2.png" style="border-radius: 50%; width: 100%;"/>
                                         </div>
-                                        <div class="col-8 d-flex">
+                                        <div class="col-7 d-flex">
                                             <div style="font-size: 23px;" id="header-subtitle" class="text-left align-self-center">
-                                                Me fascino este curso, lo recomendaría al 100%. Al principio me perdí un poco, pero pronto agarré el hilo.
+                                                Me fascinó este curso, lo recomendaría al 100%. Al principio me perdí un poco, pero pronto agarré el hilo.
                                             </div>
                                                                             </div>
                                         </div>
@@ -555,8 +599,8 @@ desarrollo de México.</div>
                                     <div class="col-4">
                                         <img src="./resources/principalimagen338x338estudiantes3.png" style="border-radius: 50%; width: 100%;"/>
                                     </div>
-                                    <div class="col-8 d-flex">
-                                        <div style="font-size: 23px;" id="header-subtitle" class="text-left align-self-center">El curso es muy bueno, empezando desde lo básico y profundizando cada vez más. Me quedo con ganas del próximo módulo.</div>
+                                    <div class="col-7 d-flex">
+                                        <div style="font-size: 23px;" id="header-subtitle" class="text-left align-self-center">El curso es muy bueno, empezando desde lo básico y profundizando cada vez más. Me quedé con ganas de un próximo módulo.</div>
                                                                         </div>
                                     </div>
 
@@ -664,13 +708,12 @@ desarrollo de México.</div>
                     mucho más!
                 </div>
                 <div class="col-12 col-md-7">
-                    <div class="input-group input-group-lg mb-3 justify-content-center">
-                        <input id="inp-suscribete" type="text" class="inp-suscribete" placeholder="Tu correo aquí">
-                        <div class="input-group-append">
-                            <button id="btn-suscribete" class="btn-suscribete" type="button">Suscríbete</button>
-                        </div>
-                    </div>
-
+					<div class="input-group input-group-lg mb-3 justify-content-center">
+						<input id="inp-suscribete" name="correo" type="email" minlength="15" maxlength="35" class="inp-suscribete" placeholder="Tu correo aquí" required>
+						<div class="input-group-append">
+							<button id="btn-suscribete" class="btn-suscribete" type="submit">Suscríbete</button>
+						</div>
+					</div>
                 </div>
             </div>
 
@@ -694,33 +737,67 @@ desarrollo de México.</div>
                     </div>
                     <div class="d-flex mb-4 align-items-center">
                         <img src="./resources/correo.svg" class="mr-3" width="30px">
-                        ayuda@nafintecapacita.com
+                        capacitacion@nafintecapacita.com
                     </div>
 
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">El Banco</div>
-                <div class="footer-link mb-2">Acerca de NAFIN</div>
-                <div class="footer-link mb-2">Artículos</div>
-                <div class="footer-link mb-2">Contacto</div>
-                <div class="footer-link mb-2"></div>
+                <a  href="https://www.nafin.com/portalnf/content/home/home.html">
+                    <div class="footer-link mb-2">Nafin</div>
+                </a>
+                <a href="https://www.cetesdirecto.com/sites/portal/inicio">
+                    <div class="footer-link mb-2">Cetes Directo</div>
+                </a>
+                <a href="https://www.nafin.com/portalnf/content/desarrollo-empresarial-y-asistencia-tecnica/herramientas-de-negocio/sitios_interes.html">
+                    <div class="footer-link mb-2">Sitios de Interés</div>
+                </a>
+                <a href=" https://www.nafin.com/portalnf/content/marco-legal/">
+                    <div class="footer-link mb-2">Marco Legal</div>
+                </a>
+                
+                
+               
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Enlaces</div>
-                <div class="footer-link mb-2">Cursos</div>
-                <div class="footer-link mb-2">Eventos</div>
-                <div class="footer-link mb-2">Noticias</div>
-                <div class="footer-link mb-2">Opiniones</div>
+                <a href="https://capacita-nafin.eastus.cloudapp.azure.com/portal/lista-cursos.html">
+                    <div class="footer-link mb-2">Cursos</div>
+                </a>
+                <a href="https://capacita-nafin.eastus.cloudapp.azure.com/portal/capsulas.html">
+                    <div class="footer-link mb-2">Cápsulas</div>
+                </a>
+                <a href="https://capacita-nafin.eastus.cloudapp.azure.com/portal/blog.html">
+                    <div class="footer-link mb-2">Artículos</div>
+                </a>
+                <a href="https://capacita-nafin.eastus.cloudapp.azure.com/portal/contacto.html">
+                    <div class="footer-link mb-2">Contacto</div>
+                </a>          
+               
+                
+                
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Gobierno de México</div>
-                <div class="footer-link mb-2">Participa</div>
-                <div class="footer-link mb-2">Publicaciones Oficiales</div>
-                <div class="footer-link mb-2">Marco Jurídico</div>
-                <div class="footer-link mb-2">Plataforma Nacional de Transparencia</div>
-                <div class="footer-link mb-2">Alerta</div>
-                <div class="footer-link mb-2">Denuncia</div>
+                
+                <a href="https://www.gob.mx/shcp">
+                    <div class="footer-link mb-2">SHCP</div>
+                </a>
+                
+                <a href="https://datos.gob.mx/">
+                    <div class="footer-link mb-2">Datos</div>
+                </a>
+                <a href="https://www.gob.mx/publicaciones">
+                    <div class="footer-link mb-2">Publicaciones</div>
+                </a>
+                <a href="https://www.plataformadetransparencia.org.mx/">
+                    <div class="footer-link mb-2">PNT</div>
+                </a>
+                <a href="https://alertadores.funcionpublica.gob.mx/">
+                    <div class="footer-link mb-2">Alerta</div>
+                </a>
+                
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Síguenos en</div>
@@ -774,7 +851,7 @@ desarrollo de México.</div>
             <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header container-contact100" style="background-color: #d4c19c;padding-bottom: 0px;">
-                            <div class="wrap-contact100" style="">
+                            <div class="wrap-contact100" >
                                
                                     <h5 class="modal-title oswald font-weight-bold text-center  align-self-center">Acércate a nosotros</h5>
                        
@@ -889,6 +966,18 @@ desarrollo de México.</div>
     <script type="text/javascript" src="./js/counter.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+//             document.querySelectorAll(".click").forEach(el => {
+//   el.addEventListener("click", e => {
+//     var vid = document.getElementById("linkMVideo");
+//             vid.pause(); 
+//   });
+// });
+            $(document).on('click', '#videoModal', function() {
+				var vid = document.getElementById("linkMVideo");
+				vid.pause();
+				
+            });
+           
 			
 			//modificaciones
 			
@@ -897,8 +986,22 @@ desarrollo de México.</div>
 				$('#linkMVideo').attr("src", "./resources/videos/buro_credito.mp4");
             });
 			
+			$(document).on('click', '#videoEMujeres', function() {
+				$('#titleModal').text("Mujeres emprendedoras");
+				$('#linkMVideo').attr("src", "./resources/videos/mujeres_emprendedoras.mp4");
+            });
+			
+			$(document).on('click', '#videoPNegocios', function() {
+				$('#titleModal').text("13 pasos para elaborar tu plan de negocios");
+				$('#linkMVideo').attr("src", "./resources/videos/plan_idea_negocio.mp4");
+            });
+			
+			$(document).on('click', '#videoMicrocredito', function() {
+				$('#titleModal').text("Cómo obtener un microcredito");
+				$('#linkMVideo').attr("src", "./resources/videos/como-obtener-un-microcredito.mp4");
+            });
+			
 			//codigo original
-
             $(document).on('click touchstart', '#main-header #controls-wrap #control-left', function() {
                 $("#carouselExampleControls .carousel-control-prev").click();
             });
@@ -1001,11 +1104,11 @@ desarrollo de México.</div>
                 window.location.href = "cursos.html?sector="+ sector;
             });
 
-
-            $(document).on('click', '#btn-suscribete', function(e) {
+			//original
+            /*$(document).on('click', '#btn-suscribete', function(e) {
                 e.preventDefault();
 
-                var urlparam = "http://54.175.184.59:8081/nafin/v1/subscription";
+                var urlparam = "http://localhost:8081/nafin/v1/subscription";
                 
                 //agregar las validaciones
                 var subscriptionJson = { "nombreComp": $('#name').val(),
@@ -1026,6 +1129,27 @@ desarrollo de México.</div>
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
                             alert("No se recibio solicitud exitosamente");
+                        }
+                    });
+             });*/
+			 
+			 $(document).on('click', '#btn-suscribete', function(e) {
+                e.preventDefault();
+
+                var urlparam = "/portal/csv/script_suscripcion.php";
+                
+				var data1 = $('#inp-suscribete').val();
+				
+                    $.ajax({       
+                        url: urlparam,
+                        type: 'post',
+                        data: {"correo":data1},
+                        success: function( data, textStatus, jQxhr ){
+                            alert(data);
+							$('#inp-suscribete').val('');
+                        },
+                        error: function( jqXhr, textStatus, errorThrown ){
+                            alert("Error al conectarse con el servidor");
                         }
                     });
              });
@@ -1053,6 +1177,7 @@ desarrollo de México.</div>
 
             });
         }
+        
 
     </script>
 </body>

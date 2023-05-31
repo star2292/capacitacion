@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./css/nafin.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LFCBNTZGM"></script>
     <script>
@@ -60,9 +59,7 @@
     <div id="header" class="px-4">
 
         <div class="ml-4 mt-3">
-            <div style="position:absolute; top: 4em; font-weight: bold;  line-height: 60px; padding-left:4px;border-left: 3px solid #bc955c !important;" class="oswald">
-            <h1 style="font-size: 46px; color: white;">Artículos</h1>    
-            </div>
+            <div style="position:absolute; top: 4em; font-weight: bold; font-size: 46px; line-height: 60px; padding-left:4px;border-left: 3px solid #bc955c !important;">Artículos</div>
         </div>
 
 
@@ -111,10 +108,10 @@
         {{#.}}
         <div class="item-post mt-4 ml-3">
             <div class="article-image">
-                <a href="#"><img src="{{miniature}}"></a>
+                <a href="{{link}}"><img src="{{miniature}}"></a>
             </div>
             <div class="article-title-wrapper">
-                <h3><a href="#">{{titulo}}</a></h3>
+                <h3><a href="{{link}}">{{titulo}}</a></h3>
             </div>
         </div>
         {{/.}}
@@ -122,13 +119,50 @@
 
 
 
-    <div class="container py-5" id="blog-list"  >
+    <div class="container py-5" id="blog-list">
         <div class="row" data-aos="fade-left">
-            <div  class="col-sm-12 col-md-8" id="blog-list-content">
+			
+            <!--div  class="col-sm-12 col-md-8" id="blog-list-content">
             
+            </div-->
+			 
+			<!-- nuevo cambio sin mustache -->
+			<div  class="col-sm-12 col-md-8" id="blog-list-content-2">
+				  <div class="blog-element">
+
+                    
+                    <img src="./resources/blog/articulos2.jpg" style="margin-bottom: 10px" class="blog-miniature" width="100%" height="auto"                 
+                        data-aos="zoom-in"
+                        data-aos-anchor-placement="bottom-bottom">
+                    <button class="btn-1"
+                        data-aos="zoom-in">Leer más</button>
+                    <div>
+
+                        <div class="date float-left mr-3 mb-3">
+                            <div class="month">01</div>
+                            <i>Diciembre</i>
+                        </div>
+                        
+                        <div class="text-content">
+							<h2 class="entry-tittle">
+									<a href="#">ESTRATEGIA NAFIN 2020 - 2024</a>
+							</h2>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">NAFIN es una institución financiera sólida cuya finalidad es contribuir al crecimiento económico nacional impulsando el desarrollo de las empresas nacionales. Esto lo lleva a cabo a través de una amplia oferta de productos financieros, así como de capacitación y asistencia técnica en diversas áreas de negocios y productivas. Asimismo, es una institución cuyos esfuerzos están orientados en la implementación de la política económica-industrial de México, al cierre de brechas de financiamiento existentes en el sistema financiero nacional, a la creación de nuevos mercados que incidan positivamente en la economía nacional, impulsen la inclusión financiera y atiendan a los sectores y grupos que enfrentan mayores limitaciones para acceder al crédito.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Con base en el PND 2019-2024 y en el PRONAFIDE 2020–2024, el Programa Institucional NAFIN 2020-2024 tiene como objetivo contribuir al desarrollo económico sostenible del país por medio del impulso a las micro, pequeñas y medianas empresas del país, bajo los principios de austeridad, honestidad y combate a la corrupción que caracterizan los compromisos del Gobierno de México. Para lograrlo, NAFIN está comprometido con el uso eficiente y sostenible de los recursos, así como con la generación de los medios, y capacidades humanas para garantizar los objetivos del país en este rubro.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Para impulsar el desarrollo económico, en el Programa Institucional NAFIN 2020-2024 se establecen la estrategia de la institución y las líneas de acción que permitirán financiar y articular, en conjunto y colaboración con otras instituciones de gobierno, la política económica e industrial del país. Las líneas de acción fueron diseñadas con la finalidad de tener un impacto positivo en la inversión, la productividad, la innovación y el crecimiento mediante el fortalecimiento de las empresas mexicanas por medio del acceso al financiamiento, capacitación y asistencia técnica, con especial énfasis en sectores y grupos que enfrentan mayores limitaciones para acceder a éstos.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">La estrategia adoptada por NAFIN para el periodo 2020-2024 está enfocada en tres grandes ejes:</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">• Fomento al desarrollo industrial nacional enfocado en sectores productivos.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">• Impulso al desarrollo regional con base en las vocaciones productivas de cada región.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">• Impulsar y respaldar los proyectos económicos prioritarios del Gobierno Federal.</p>
+							<p class="text-justify" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Todos los ejes tienen la misma relevancia y, es importante destacar que éstos presentan diversos puntos de convergencia como lo son: el financiamiento a las MiPyMEs y el encadenamiento productivo, por mencionar algunos.</p>
+							
+						</div>
+                    </div>
+                </div> 
             </div>
+			
             <div class="col-sm-12 col-md-3 offset-md-1" id="last-post">
-                <h3 class="aside-title">Últimos post</h3>
+                <h3 class="aside-title">Quizás te interese</h3>
                 <aside id="miniature-list">
 
                 </aside>
@@ -162,26 +196,60 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">El Banco</div>
-                <div class="footer-link mb-2">Acerca de NAFIN</div>
-                <div class="footer-link mb-2">Artículos</div>
-                <div class="footer-link mb-2">Contacto</div>
-                <div class="footer-link mb-2"></div>
+                <a href="https://www.nafin.com/portalnf/content/home/home.html">
+                    <div class="footer-link mb-2">Nafin</div>
+                </a>
+                <a href="https://www.cetesdirecto.com/sites/portal/inicio">
+                    <div class="footer-link mb-2">Cetes Directo</div>
+                </a>
+                <a href="https://www.nafin.com/portalnf/content/desarrollo-empresarial-y-asistencia-tecnica/herramientas-de-negocio/sitios_interes.html">
+                    <div class="footer-link mb-2">Sitios de Interés</div>
+                </a>
+                <a href=" https://www.nafin.com/portalnf/content/marco-legal/">
+                    <div class="footer-link mb-2">Marco Legal</div>
+                </a>
+                
+                
+               
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Enlaces</div>
-                <div class="footer-link mb-2">Cursos</div>
-                <div class="footer-link mb-2">Eventos</div>
-                <div class="footer-link mb-2">Noticias</div>
-                <div class="footer-link mb-2">Opiniones</div>
+                <a href="https://www.nafintecapacita.com/portal/lista-cursos.html">
+                    <div class="footer-link mb-2">Cursos</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/capsulas.html">
+                    <div class="footer-link mb-2">Cápsulas</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/blog.html">
+                    <div class="footer-link mb-2">Artículos</div>
+                </a>
+                <a href="https://www.nafintecapacita.com/portal/contacto.html">
+                    <div class="footer-link mb-2">Contacto</div>
+                </a>          
+               
+                
+                
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Gobierno de México</div>
-                <div class="footer-link mb-2">Participa</div>
-                <div class="footer-link mb-2">Publicaciones Oficiales</div>
-                <div class="footer-link mb-2">Marco Jurídico</div>
-                <div class="footer-link mb-2">Plataforma Nacional de Transparencia</div>
-                <div class="footer-link mb-2">Alerta</div>
-                <div class="footer-link mb-2">Denuncia</div>
+               
+                <a href="https://www.gob.mx/shcp">
+                    <div class="footer-link mb-2">SHCP</div>
+                </a>
+                
+                <a href="https://datos.gob.mx/">
+                    <div class="footer-link mb-2">Datos</div>
+                </a>
+                <a href="https://www.gob.mx/publicaciones">
+                    <div class="footer-link mb-2">Publicaciones</div>
+                </a>
+                <a href="https://www.plataformadetransparencia.org.mx/">
+                    <div class="footer-link mb-2">PNT</div>
+                </a>
+                <a href="https://alertadores.funcionpublica.gob.mx/">
+                    <div class="footer-link mb-2">Alerta</div>
+                </a>
+                
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-auto mb-4">
                 <div class="underlined underlined-footer footer-title mb-4">Síguenos en</div>

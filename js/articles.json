@@ -1,4 +1,5 @@
-{
+    
+    {
     "articles": [{
         "titulo":"En línea, a tu ritmo y en cualquier momento",
         "tipo":"L",
@@ -29,17 +30,49 @@
     {
         "titulo":"En línea, a tu ritmo y en cualquier momento",
         "tipo":"L",
-        "contentList":[
-            {"content":"Mujeres emprendedoras","link":"ficha-curso.html?course=5&sector=CN"},
-            {"content":"13 pasos para elaborar tu plan de negocios","link":"ficha-curso.html?course=6&sector=CN"},
-            {"content":"Determina bien tus costos","link":"ficha-curso.html?course=8&sector=CN"},
-            {"content":"Como promocionar eficientemente su producto o servicio","link":"ficha-curso.html?course=9&sector=CN"},
-            {"content":"Servicio al cliente:  Los 10 mandamientos","link":"ficha-curso.html?course=10&sector=CN"},
-            {"content":"Régimen Simplificado de Confianza (RESICO)","link":"ficha-curso.html?course=11&sector=CN"},
-            {"content":"Forjando Innovadores Protegidos","link":"ficha-curso.html?course=12&sector=CN"},
-            {"content":"Cómo presentar mi proyecto de negocio","link":"ficha-curso.html?course=13&sector=CN"},
-            {"content":"Cómo obtener un microcrédito","link":"ficha-curso.html?course=14&sector=CN"}
+        "subartitle":[
+         {
+            "subtipo":"s1",
+            "subtitulo":"Captando recursos para impulsar mi emprendimiento",
+            "subcontentList":[
+                
+                {"content":"Cómo presentar mi proyecto de negocio","link":"ficha-curso.html?course=13&sector=CN"},
+                {"content":"Cómo obtener un microcrédito","link":"ficha-curso.html?course=14&sector=CN"}
+            ]
+
+         },
+         {
+            "subtipo":"s2",
+            "subtitulo":"Desarrollo de mi idea de negocio",
+            "subcontentList":[
+                {"content":"Mujeres emprendedoras","link":"ficha-curso.html?course=5&sector=CN"},
+                {"content":"13 pasos para elaborar tu plan de negocios","link":"ficha-curso.html?course=6&sector=CN"},
+                {"content":"Determina bien tus costos","link":"ficha-curso.html?course=8&sector=CN"}
+            ]
+
+         },
+         {
+            "subtipo":"s3",
+            "subtitulo":"Formalizando mi idea de negocio",
+            "subcontentList":[
+                
+                {"content":"Régimen Simplificado de Confianza (RESICO)","link":"ficha-curso.html?course=11&sector=CN"},
+                {"content":"Forjando Innovadores Protegidos","link":"ficha-curso.html?course=12&sector=CN"}
+            ]
+
+         },
+         {
+            "subtipo":"s4",
+            "subtitulo":"Mis primeras ventas",
+            "subcontentList":[
+                
+                {"content":"Cómo promocionar eficientemente su producto o servicio","link":"ficha-curso.html?course=9&sector=CN"},
+                {"content":"Servicio al cliente:  Los 10 mandamientos","link":"ficha-curso.html?course=10&sector=CN"}
+            ]
+
+         }   
         ],
+        
         "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual",
         "tags":{
             "categoria":["CN"]
@@ -65,25 +98,83 @@
     {
         "titulo":"En línea, a tu ritmo y en cualquier momento",
         "tipo":"L",
-        "contentList":[
-            {"content":"Iniciativa mujer","link":"ficha-curso.html?course=15&sector=CFE"},
-            {"content":"Retos de la empresa familiar","link":"ficha-curso.html?course=16&sector=CFE"},
-            {"content":"Planeación estratégica, hacia dónde quiero llegar con mi empresa","link":"ficha-curso.html?course=17&sector=CFE"},
-            {"content":"Cómo vender en la pequeña y mediana empresa","link":"ficha-curso.html?course=18&sector=CFE"},
-            {"content":"Incorpora las redes sociales en tu empresa","link":"ficha-curso.html?course=19&sector=CFE"},
-            {"content":"El capital humano es la PYME","link":"ficha-curso.html?course=20&sector=CFE"},
-            {"content":"Contabilidad básica para micro y pequeñas empresas","link":"ficha-curso.html?course=22&sector=CFE"},
-            {"content":"Cómo tratar exitosamente los problemas legales en tu empresa","link":"ficha-curso.html?course=26&sector=CFE"},
-            {"content":"Mi negocia tiene marca registrada","link":"ficha-curso.html?course=27&sector=CFE"},
-            {"content":"Calidad en las Mipymes","link":"ficha-curso.html?course=28&sector=CFE"},
-            {"content":"Prevención de desastres y continuidad de negocios","link":"ficha-curso.html?course=29&sector=CFE"},
-            {"content":"Cómo obtener crédito en un banco","link":"ficha-curso.html?course=33&sector=CFE"},
-            {"content":"Productos y servicios financieros Nafin para tu empresa","link":"ficha-curso.html?course=34&sector=CFE"},
-            {"content":"Conoce cadenas productivas","link":"ficha-curso.html?course=35&sector=CFE"},
-            {"content":"Cómo hacer de mi empresa familiar una empresa institucional","link":"ficha-curso.html?course=37&sector=CFE"},
-            {"content":"Construyendo empresas socialmente responsables","link":"ficha-curso.html?course=39&sector=CFE"}
-            
-        ],
+        "subartitle":[
+            {
+               "subtipo":"s1",
+               "subtitulo":"Accediendo a fuentes de financiamiento para consolidar mi empresa",
+               "subcontentList":[
+                {"content":"Cómo obtener crédito en un banco","link":"ficha-curso.html?course=33&sector=CFE"},
+                {"content":"Productos y servicios financieros Nafin para tu empresa","link":"ficha-curso.html?course=34&sector=CFE"},
+                {"content":"Conoce cadenas productivas","link":"ficha-curso.html?course=35&sector=CFE"}
+               ]
+   
+            },
+            {
+               "subtipo":"s2",
+               "subtitulo":"Administrando los recursos de mi negocio",
+               "subcontentList":[
+                {"content":"El capital humano es la PYME","link":"ficha-curso.html?course=20&sector=CFE"},
+                {"content":"Contabilidad básica para micro y pequeñas empresas","link":"ficha-curso.html?course=22&sector=CFE"}
+               ]
+   
+            },
+            {
+               "subtipo":"s3",
+               "subtitulo":"Aspectos legales y normativos a considerar en mi negocio",
+               "subcontentList":[
+                   
+                {"content":"Cómo tratar exitosamente los problemas legales en tu empresa","link":"ficha-curso.html?course=26&sector=CFE"},
+                {"content":"Mi negocio tiene marca registrada","link":"ficha-curso.html?course=27&sector=CFE"}
+               ]
+   
+            },
+            {
+               "subtipo":"s4",
+               "subtitulo":"Institucionalizando mi negocio",
+               "subcontentList":[
+                {"content":"Cómo hacer de mi empresa familiar una empresa institucional","link":"ficha-curso.html?course=37&sector=CFE"},
+                {"content":"Construyendo empresas socialmente responsables","link":"ficha-curso.html?course=39&sector=CFE"}
+               ]
+   
+            },
+            {
+               "subtipo":"s5",
+               "subtitulo":"Manteniendo la operación de mi negocio",
+               "subcontentList":[
+                {"content":"Calidad en las Mipymes","link":"ficha-curso.html?course=28&sector=CFE"},
+                {"content":"Prevención de desastres y continuidad de negocios","link":"ficha-curso.html?course=29&sector=CFE"}
+               ]
+   
+            }   ,
+            {
+               "subtipo":"s6",
+               "subtitulo":"Planeando el futuro de mi negocio",
+               "subcontentList":[
+                {"content":"Iniciativa mujer","link":"ficha-curso.html?course=15&sector=CFE"},
+                {"content":"Retos de la empresa familiar","link":"ficha-curso.html?course=16&sector=CFE"},
+                {"content":"Planeación estratégica, hacia dónde quiero llegar con mi empresa","link":"ficha-curso.html?course=17&sector=CFE"}
+               ]
+   
+            }   ,
+            {
+               "subtipo":"s7",
+               "subtitulo":"Técnicas de venta para mi negocio",
+               "subcontentList":[
+                {"content":"Cómo vender en la pequeña y mediana empresa","link":"ficha-curso.html?course=18&sector=CFE"},
+                {"content":"Incorpora las redes sociales en tu empresa","link":"ficha-curso.html?course=19&sector=CFE"}
+               ]
+   
+            }   ,
+            {
+               "subtipo":"s8",
+               "subtitulo":"Profesionalización del sector turismo",
+               "subcontentList":[
+                {"content":"Buenas prácticas para la calidad higiénico - sanitaria en el sector turismo","link":"ficha-curso.html?course=45&sector=CFE"},
+                {"content":"20 pasos para iniciar tu restaurante","link":"ficha-curso.html?course=46&sector=CFE"}
+               ]
+   
+            }      
+           ],
         "duracion":"Duración de 2 horas por curso, Atención de dudas a través de ayuda@nafintecapacita.com , Individual. Atención uno a uno consultor-empresa.",
         "tags":{
             "categoria":["CFE"]
@@ -148,23 +239,23 @@
             "nombre":"Inclusión o educación financiera",
             "segmento":"Social",
             "dirijido":"Personas físicas",
-            "descripcion":"En esta sección aprenderás sobre los beneficios del ahorro y la inversión, la adopción de servicios financieros y adecuada administración financiera personal.",
+            "descripcion":"En esta sección aprenderás sobre los beneficios del ahorro, la inversión, la adopción de servicios financieros y la adecuada administración financiera personal.",
             "img": "./resources/socialeducacionfinanciera"
         },
         {
             "categoria":"CN",
-            "nombre":"Creacion de nuevas empresas",
+            "nombre":"Creación de nuevas empresas",
             "segmento":"Empresarial",
-            "dirijido":"Emprendedores y microempresas",
-            "descripcion":"En esta sección aprenderás desde como generar tu idea de negocio hasta como hacer realidad tu emprendimiento.",
+            "dirijido":"Emprendedores y microempresas.",
+            "descripcion":"En esta sección aprenderás desde generar tu idea de negocio hasta hacer realidad tu emprendimiento.",
             "img": "./resources/creaciondenegocios"
         },
         {
             "categoria":"CFE",
             "nombre":"Fortalecer o consolidar empresas",
             "segmento":"Empresarial",
-            "dirijido":"Microempresas y pequeñas empresas",
-            "descripcion":"En esta sección aprenderás las mejores prácticas empresariales para que tu empresa perdure y cuente con un modelo de negocio eficiente y rentable",
+            "dirijido":"Microempresas y pequeñas empresas.",
+            "descripcion":"En esta sección aprenderás las mejores prácticas empresariales para que tu empresa perdure y cuente con un modelo de negocio eficiente y rentable.",
             "img": "./resources/fortalizacionempresarial"
         }
 

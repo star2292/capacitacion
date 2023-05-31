@@ -8,6 +8,9 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
+a {
+    text-decoration: none !important;
+}
 
 .container {
     max-width: 1280px;
@@ -214,6 +217,8 @@ h2 {
     font-weight: bold;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     border: 0;
     font-size: 20px;
     padding: 0 1em;
@@ -226,6 +231,7 @@ h2 {
 .footer-link {
     font-size: 11px;
     color: #fff;
+   
 }
 
 .snip1533 {
